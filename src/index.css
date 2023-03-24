@@ -29,3 +29,38 @@
   margin-bottom: 50px;
   text-align: center;
 }
+
+/* css for quiz page */
+h2 {
+  color: white !important;
+  text-align: center;
+  font-size: 36px;
+}
+
+.quizInstructions {
+  color: white !important;
+  text-align: center;
+}
+
+.questionOne {
+  padding: 0px 24px 16px 24px !important;
+}
+
+.questionOne h3 {
+  margin-left: 10px;
+  padding: 16px !important;
+  color: white !important;
+}
+
+.nameField {
+  margin-left: 26px !important;
+  width: 75%;
+  background-color: white;
+  border-radius: 10px !important;
+}
+
+.nameField label {
+  padding-left: 16px !important;
+  color: #e314d2 !important;
+}
+/* end css for quiz page */

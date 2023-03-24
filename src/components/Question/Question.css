@@ -1,0 +1,14 @@
+.quizQuestion {
+    margin: 10px !important;
+    color: white !important;
+}
+
+.quizButton {
+    margin: 10px !important;
+    background-color: white !important;
+    color: #e314d2 !important;
+}
+
+.quizButton:hover {
+    background-color: #E5E8E8 !important;
+}
