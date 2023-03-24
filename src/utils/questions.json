@@ -1,6 +1,6 @@
 [
     {
-        "key": "question1",
+        "key": "ageRange",
         "question": "What's your age range?",
         "option1": "18-25",
         "option2": "26-30",
@@ -9,15 +9,19 @@
         "option5": "41+"
     },
     {
-        "key": "question2",
-        "question": "Are you:",
-        "option1": "A man seeking a woman",
-        "option2": "A woman seeking a man",
-        "option3": "A man seeking a man",
-        "option4": "A woman seeking a woman"
+        "key": "gender",
+        "question": "I am a:",
+        "option1": "Man",
+        "option2": "Woman"
     },
     {
-        "key": "question3",
+        "key": "lookingFor",
+        "question": "Looking for a:",
+        "option1": "Man",
+        "option2": "Woman"
+    },
+    {
+        "key": "takeaway",
         "question": "What's your favourite takeaway?",
         "option1": "Chinese",
         "option2": "Indian",
@@ -26,7 +30,7 @@
         "option5": "Sushi"
     },
     {
-        "key": "question4",
+        "key": "holiday",
         "question": "What's your favourite kind of holiday?",
         "option1": "Beach",
         "option2": "City break",
@@ -35,7 +39,7 @@
         "option5": "Stay at home"
     },
     {
-        "key": "question5",
+        "key": "music",
         "question": "What's your favourite type of music?",
         "option1": "Pop",
         "option2": "Rock/ Punk",
@@ -44,7 +48,7 @@
         "option5": "Classical"
     },
     {
-        "key": "question6",
+        "key": "film",
         "question": "What's your favourite film genre?",
         "option1": "Comedy",
         "option2": "Action",
@@ -53,12 +57,12 @@
         "option5": "Drama"
     },
     {
-        "key": "question7",
+        "key": "superpower",
         "question": "If you could have one superpower, what would it be?",
         "option1": "Flying",
         "option2": "Invisibility",
         "option3": "Super strength",
         "option4": "Telepathy",
-        "option5": "X ray vision"
+        "option5": "X-ray vision"
     }
 ]
