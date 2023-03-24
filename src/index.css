@@ -1,7 +1,5 @@
 .links {
-
   background-color: #e314d2;
-
 }
 
 .links li {
@@ -29,6 +27,7 @@
   margin-bottom: 50px;
   text-align: center;
 }
+
 
 /* css for quiz page */
 h2 {
@@ -64,3 +63,4 @@ h2 {
   color: #e314d2 !important;
 }
 /* end css for quiz page */
+
