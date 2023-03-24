@@ -12,23 +12,23 @@ const Contributors = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="testimonial-item">
-                                <img src="./images/testimonials-1.jpg" />
+                                <img src="./images/testimonials-1.jpg" alt=""/>
                                 <h5>Hoger Shoresh</h5>
                                 <p>"This is fantastic. Thank you so much guys!"</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className="testimonial-item">
-                                <img src="./images/testimonials-2.jpg" />
+                                <img src="./images/testimonials-2.jpg" alt=""/>
                                 <h5>Imran Aftab</h5>
                                 <p>"Travel California is amazing! I've been using it to find lots of national parks"</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className="testimonial-item">
-                                <img src="./images/testimonials-3.jpg" />
+                                <img src="./images/testimonials-3.jpg" alt=""/>
                                 <h5>Naomi Mardon</h5>
-                                <p>"Thanks so much for making these resources available to us!</p>
+                                <p>"Thanks so much for making these resources available to us!"</p>
                             </div>
                         </div>
                     </div>
