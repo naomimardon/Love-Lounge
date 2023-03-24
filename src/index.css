@@ -26,6 +26,47 @@
   font-size: 36px;
   margin-bottom: 50px;
   text-align: center;
+  padding-top: 15px;
+}
+
+.contributors {
+  background-color: #ffffff;
+}
+
+.contributor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.contributor-item img {
+  margin: 15px;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  border: 1px solid white;
+}
+
+.contributor-item h5 {
+  color: rgb(55, 39, 39);
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.socialIcons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons .icon {
+  color: #e314d2
+}
+
+.socialIcons .icon:hover {
+  color: #17252a;
+  transform: scale(1.2);
 }
 
 
@@ -62,5 +103,5 @@ h2 {
   padding-left: 16px !important;
   color: #e314d2 !important;
 }
-/* end css for quiz page */
 
+/* end css for quiz page */
