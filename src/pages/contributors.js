@@ -27,7 +27,7 @@ const Contributors = () => {
                         <div className="col-lg-4">
                             <div className="testimonial-item">
                                 <img src="./images/testimonials-3.jpg" />
-                                <h5>Naomi Morden</h5>
+                                <h5>Naomi Mardon</h5>
                                 <p>"Thanks so much for making these resources available to us!</p>
                             </div>
                         </div>
