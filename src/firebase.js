@@ -1,5 +1,6 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
+import 'firebase/compat/firestore'; // import firestore module
 
 const app = firebase.initializeApp({
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -16,4 +17,6 @@ provider.setCustomParameters({
     prompt: "select_account",
 });
 
-export { app, provider };
+const firestore = app.firestore();
+
+export { app, provider, firestore }; 

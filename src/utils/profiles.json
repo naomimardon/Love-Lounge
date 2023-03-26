@@ -1,552 +1,652 @@
 [
     {
         "name": "Sarah",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Indian",
-        "holiday": "Beach",
-        "music": "Rock/ Punk",
-        "film": "Thriller/ Horror",
-        "superpower": "Flying"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Rock/ Punk",
+            "7": "Thriller/ Horror",
+            "8": "Flying"
+        }
     },
     {
         "name": "Alex",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Emily",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Sushi",
-        "holiday": "City break",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Sushi",
+            "5": "City break",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "Michael",
-        "ageRange": "36-40",
-        "gender": "Man",
-        "lookingFor": "Man",
-        "takeaway": "Chinese",
-        "holiday": "Safari",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "36-40",
+            "2": "Man",
+            "3": "Man",
+            "4": "Chinese",
+            "5": "Safari",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Samantha",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Burger and chips",
-        "holiday": "Beach",
-        "music": "Dance",
-        "film": "Comedy",
-        "superpower": "Flying"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Burger and chips",
+            "5": "Beach",
+            "6": "Dance",
+            "7": "Comedy",
+            "8": "Flying"
+        }
     },
     {
         "name": "David",
-        "ageRange": "41+",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Indian",
-        "holiday": "Stay at home",
-        "music": "Rock/ Punk",
-        "film": "Thriller/ Horror",
-        "superpower": "X-ray vision"
+        "answers": {
+            "1": "41+",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Indian",
+            "5": "Stay at home",
+            "6": "Rock/ Punk",
+            "7": "Thriller/ Horror",
+            "8": "X-ray vision"
+        }
     },
     {
         "name": "Laura",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Chinese",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Pop",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Chinese",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Pop",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "James",
-        "ageRange": "36-40",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "City break",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "36-40",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "City break",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Elizabeth",
-        "ageRange": "31-35",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "Beach",
-        "music": "Classical",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Flying"
+        "answers": {
+            "1": "31-35",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "Beach",
+            "6": "Classical",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Flying"
+        }
     },
     {
         "name": "Jake",
-        "ageRange": "36-40",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "City break",
-        "music": "Dance",
-        "film": "Action",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "36-40",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "City break",
+            "6": "Dance",
+            "7": "Action",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Lisa",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Sushi",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Sushi",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Tom",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Man",
-        "takeaway": "Chinese",
-        "holiday": "Safari",
-        "music": "Rock/ Punk",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Man",
+            "4": "Chinese",
+            "5": "Safari",
+            "6": "Rock/ Punk",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "Emma",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Burger and chips",
-        "holiday": "Stay at home",
-        "music": "Pop",
-        "film": "Comedy",
-        "superpower": "X-ray vision"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Burger and chips",
+            "5": "Stay at home",
+            "6": "Pop",
+            "7": "Comedy",
+            "8": "X-ray vision"
+        }
     },
     {
         "name": "Alex",
-        "ageRange": "18-25",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Indian",
-        "holiday": "Beach",
-        "music": "Hip hop",
-        "film": "Thriller/ Horror",
-        "superpower": "Flying"
+        "answers": {
+            "1": "18-25",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Hip hop",
+            "7": "Thriller/ Horror",
+            "8": "Flying"
+        }
     },
     {
         "name": "Olivia",
-        "ageRange": "41+",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Chinese",
-        "holiday": "Beach",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "41+",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Chinese",
+            "5": "Beach",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "James",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "City break",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "City break",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Lily",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Sushi",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Sushi",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Michael",
-        "ageRange": "36-40",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Sushi",
-        "holiday": "City break",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "36-40",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Sushi",
+            "5": "City break",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Lisa",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Pizza",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Pizza",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "David",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Chinese",
-        "holiday": "Safari",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Chinese",
+            "5": "Safari",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Rachel",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Burger and chips",
-        "holiday": "Stay at home",
-        "music": "Dance",
-        "film": "Comedy",
-        "superpower": "X-ray vision"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Burger and chips",
+            "5": "Stay at home",
+            "6": "Dance",
+            "7": "Comedy",
+            "8": "X-ray vision"
+        }
     },
     {
         "name": "Alex",
-        "ageRange": "41+",
-        "gender": "Man",
-        "lookingFor": "Man",
-        "takeaway": "Indian",
-        "holiday": "Beach",
-        "music": "Rock/ Punk",
-        "film": "Thriller/ Horror",
-        "superpower": "Flying"
+        "answers": {
+            "1": "41+",
+            "2": "Man",
+            "3": "Man",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Rock/ Punk",
+            "7": "Thriller/ Horror",
+            "8": "Flying"
+        }
     },
     {
         "name": "Emily",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "City break",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "City break",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "John",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Olivia",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Chinese",
-        "holiday": "Safari",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Chinese",
+            "5": "Safari",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Sally",
-        "ageRange": "31-35",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Pizza",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Rock/ Punk",
-        "film": "Comedy",
-        "superpower": "Flying"
+        "answers": {
+            "1": "31-35",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Pizza",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Rock/ Punk",
+            "7": "Comedy",
+            "8": "Flying"
+        }
     },
     {
         "name": "Jack",
-        "ageRange": "18-25",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Chinese",
-        "holiday": "Beach",
-        "music": "Hip hop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "18-25",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Chinese",
+            "5": "Beach",
+            "6": "Hip hop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "Sansi",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Indian",
-        "holiday": "Safari",
-        "music": "Rock/ Punk",
-        "film": "Drama",
-        "superpower": "X-ray vision"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Indian",
+            "5": "Safari",
+            "6": "Rock/ Punk",
+            "7": "Drama",
+            "8": "X-ray vision"
+        }
     },
     {
         "name": "Giuliana",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Burger and chips",
-        "holiday": "Beach",
-        "music": "Pop",
-        "film": "Drama",
-        "superpower": "Flying"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Burger and chips",
+            "5": "Beach",
+            "6": "Pop",
+            "7": "Drama",
+            "8": "Flying"
+        }
     },
     {
         "name": "Harry",
-        "ageRange": "26-30",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Sushi",
-        "holiday": "Beach",
-        "music": "Pop",
-        "film": "Comedy",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "26-30",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Sushi",
+            "5": "Beach",
+            "6": "Pop",
+            "7": "Comedy",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Sarah",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Chinese",
-        "holiday": "Beach",
-        "music": "Hip hop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Flying"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Chinese",
+            "5": "Beach",
+            "6": "Hip hop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Flying"
+        }
     },
     {
         "name": "Anna",
-        "ageRange": "31-35",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "Beach",
-        "music": "Classical",
-        "film": "Action",
-        "superpower": "Flying"
+        "answers": {
+            "1": "31-35",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "Beach",
+            "6": "Classical",
+            "7": "Action",
+            "8": "Flying"
+        }
     },
     {
         "name": "Izzie",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Indian",
-        "holiday": "Beach",
-        "music": "Dance",
-        "film": "Comedy",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Dance",
+            "7": "Comedy",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "Matthew",
-        "ageRange": "36-40",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Indian",
-        "holiday": "City break",
-        "music": "Classical",
-        "film": "Thriller/ Horror",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "36-40",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Indian",
+            "5": "City break",
+            "6": "Classical",
+            "7": "Thriller/ Horror",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "William",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "City break",
-        "music": "Rock/ Punk",
-        "film": "Comedy",
-        "superpower": "Flying"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "City break",
+            "6": "Rock/ Punk",
+            "7": "Comedy",
+            "8": "Flying"
+        }
     },
     {
         "name": "Naomi",
-        "ageRange": "36-40",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Rock/ Punk",
-        "film": "Drama",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "36-40",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Rock/ Punk",
+            "7": "Drama",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "John",
-        "ageRange": "18-25",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "City break",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "18-25",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "City break",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "Maria",
-        "ageRange": "31-35",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "31-35",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Michael",
-        "ageRange": "41+",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Chinese",
-        "holiday": "Safari",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "41+",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Chinese",
+            "5": "Safari",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Emily",
-        "ageRange": "26-30",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Burger and chips",
-        "holiday": "Stay at home",
-        "music": "Dance",
-        "film": "Comedy",
-        "superpower": "X-ray vision"
+        "answers": {
+            "1": "26-30",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Burger and chips",
+            "5": "Stay at home",
+            "6": "Dance",
+            "7": "Comedy",
+            "8": "X-ray vision"
+        }
     },
     {
         "name": "David",
-        "ageRange": "36-40",
-        "gender": "Man",
-        "lookingFor": "Man",
-        "takeaway": "Indian",
-        "holiday": "Beach",
-        "music": "Rock/ Punk",
-        "film": "Thriller/ Horror",
-        "superpower": "Flying"
+        "answers": {
+            "1": "36-40",
+            "2": "Man",
+            "3": "Man",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Rock/ Punk",
+            "7": "Thriller/ Horror",
+            "8": "Flying"
+        }
     },
     {
         "name": "Samantha",
-        "ageRange": "18-25",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Chinese",
-        "holiday": "City break",
-        "music": "Hip hop",
-        "film": "Action",
-        "superpower": "Flying"
+        "answers": {
+            "1": "18-25",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Chinese",
+            "5": "City break",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Flying"
+        }
     },
     {
         "name": "Daniel",
-        "ageRange": "31-35",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Classical",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "31-35",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Jessica",
-        "ageRange": "41+",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "Safari",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "41+",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "Safari",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Ethan",
-        "ageRange": "26-30",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Burger and chips",
-        "holiday": "Stay at home",
-        "music": "Pop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "26-30",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Burger and chips",
+            "5": "Stay at home",
+            "6": "Pop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Max",
-        "ageRange": "41+",
-        "gender": "Man",
-        "lookingFor": "Man",
-        "takeaway": "Indian",
-        "holiday": "Beach",
-        "music": "Hip hop",
-        "film": "Sci Fi/ Fantasy",
-        "superpower": "Invisibility"
+        "answers": {
+            "1": "41+",
+            "2": "Man",
+            "3": "Man",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Hip hop",
+            "7": "Sci Fi/ Fantasy",
+            "8": "Invisibility"
+        }
     },
     {
         "name": "Olivia",
-        "ageRange": "31-35",
-        "gender": "Woman",
-        "lookingFor": "Man",
-        "takeaway": "Sushi",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Rock/ Punk",
-        "film": "Drama",
-        "superpower": "Telepathy"
+        "answers": {
+            "1": "31-35",
+            "2": "Woman",
+            "3": "Man",
+            "4": "Sushi",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Rock/ Punk",
+            "7": "Drama",
+            "8": "Telepathy"
+        }
     },
     {
         "name": "Ethan",
-        "ageRange": "18-25",
-        "gender": "Man",
-        "lookingFor": "Woman",
-        "takeaway": "Pizza",
-        "holiday": "Stay at home",
-        "music": "Dance",
-        "film": "Action",
-        "superpower": "Super strength"
+        "answers": {
+            "1": "18-25",
+            "2": "Man",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "Stay at home",
+            "6": "Dance",
+            "7": "Action",
+            "8": "Super strength"
+        }
     },
     {
         "name": "Maya",
-        "ageRange": "36-40",
-        "gender": "Woman",
-        "lookingFor": "Woman",
-        "takeaway": "Chinese",
-        "holiday": "City break",
-        "music": "Classical",
-        "film": "Thriller/ Horror",
-        "superpower": "Flying"
+        "answers": {
+            "1": "36-40",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Chinese",
+            "5": "City break",
+            "6": "Classical",
+            "7": "Thriller/ Horror",
+            "8": "Flying"
+        }
     },
     {
         "name": "Leo",
-        "ageRange": "26-30",
-        "gender": "Man",
-        "lookingFor": "Man",
-        "takeaway": "Burger and chips",
-        "holiday": "Adventure (hiking, sailing etc.)",
-        "music": "Pop",
-        "film": "Drama",
-        "superpower": "X-ray vision"
+        "answers": {
+            "1": "26-30",
+            "2": "Man",
+            "3": "Man",
+            "4": "Burger and chips",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Pop",
+            "7": "Drama",
+            "8": "X-ray vision"
+        }
     }
 ]

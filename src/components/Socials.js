@@ -3,7 +3,7 @@ const Socials = ({ githubUrl, linkedinUrl }) => {
         icon: {
             textDecoration: "none",
             fontSize: "40px",
-            padding: "10px",
+            padding: "5px",
             transition: "0.3s ease-in",
 
         },

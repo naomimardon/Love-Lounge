@@ -3,12 +3,16 @@
     color: white !important;
 }
 
-.quizButton {
+Button {
     margin: 10px !important;
     background-color: white !important;
     color: #e314d2 !important;
 }
 
-.quizButton:hover {
-    background-color: #E5E8E8 !important;
+.MuiButton-contained {
+    color: white !important;
+}
+
+.MuiButton-containedPrimary {
+    background-color: blue !important;
 }

@@ -20,13 +20,13 @@ const Quiz = () => {
                         {Questions.map((element) => {
                             return (
                                 <Question
-                                    key={element.key}
-                                    question={element.question}
-                                    option1={element.option1}
-                                    option2={element.option2}
-                                    option3={element.option3}
-                                    option4={element.option4}
-                                    option5={element.option5}
+                                    id={element.id}
+                                    question={element.text}
+                                    option1={element.options[0]}
+                                    option2={element.options[1]}
+                                    option3={element.options[2]}
+                                    option4={element.options[3]}
+                                    option5={element.options[4]}
                                 />
                             )
                         })

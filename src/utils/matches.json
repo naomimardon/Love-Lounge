@@ -1,0 +1,63 @@
+[
+    {
+        "name": "John",
+        "answers": {
+            "1": "26-30",
+            "2": "Male",
+            "3": "Female",
+            "4": "Indian",
+            "5": "Beach",
+            "6": "Rock/ Punk",
+            "7": "Thriller/ Horror",
+            "8": "Flying"
+        }
+    },
+    {
+        "name": "Sarah",
+        "answers": {
+            "1": "18-25",
+            "2": "Female",
+            "3": "Woman",
+            "4": "Pizza",
+            "5": "Adventure (hiking, sailing etc.)",
+            "6": "Hip hop",
+            "7": "Action",
+            "8": "Super strength"
+        }
+    },
+    {
+        "name": "Alex",
+        "answers": {
+            "1": "31-40",
+            "2": "Woman",
+            "3": "Woman",
+            "4": "Sushi",
+            "5": "City break",
+            "6": "Classical",
+            "7": "Drama",
+            "8": "Invisibility"
+        }
+    },
+    {
+        "name": "Michael",
+        "1": "36-40",
+        "2": "Man",
+        "3": "Man",
+        "4": "Chinese",
+        "5": "Safari",
+        "6": "Pop",
+        "7": "Sci Fi/ Fantasy",
+        "8": "Telepathy"
+    },
+    {
+        "name": "Samantha",
+        "1": "26-30",
+        "2": "Woman",
+        "3": "Man",
+        "4": "Burger and chips",
+        "5": "Beach",
+        "6": "Dance",
+        "7": "Comedy",
+        "8": "Flying"
+    }
+]

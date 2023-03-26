@@ -1,29 +1,24 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import TextField from '@mui/material/TextField';
 
-const NameField = () => {
-    const [name, setName] = useState(() => {
-        // getting stored value
-        const saved = localStorage.getItem("Name");
-        const initialValue = JSON.parse(saved);
-        return initialValue || "";
-      });
+
+const NameField = ({ value, onChange }) => {
+
 
     useEffect(() => {
         // storing input name
-        localStorage.setItem("Name", JSON.stringify(name));
-      }, [name]);
+        localStorage.setItem("Name", JSON.stringify(value));
+    }, [value]);
 
     return (
         <TextField
             className="nameField"
             id="outlined-basic"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            value={value}
+            onChange={onChange}
             label="Your name"
             variant="outlined" />
     );
 };
 
-export default NameField
-
+export default NameField;
