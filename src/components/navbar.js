@@ -1,29 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { useAuth } from "../Context/AuthContext";
-
 
 const Navbar = () => {
-    const { currentUser, loggedIn, signupWithGoogle, logout } = useAuth()
-    useEffect(
-        () => {
-            if (currentUser) {
-
-            };
-        }, [loggedIn]
-    )
 
     return (
         <nav className="links">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
+            <ul className="nav justify-content-end">
+                <li className="nav-item">
                     <Link to="/">Home</Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link to="/Contributors">Contributors</Link>
                 </li>
-                <li class="nav-item">
-                    <Link to="/Login">Login</Link>
+
+                <li className="nav-item">
+                    <Link to="/QuestionForm">QuestionForm</Link>
                 </li>
 
             </ul>

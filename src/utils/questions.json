@@ -1,64 +1,84 @@
 [
     {
-        "key": "question1",
-        "question": "What's your age range?",
-        "option1": "18-25",
-        "option2": "26-30",
-        "option3": "31-35",
-        "option4": "36-40",
-        "option5": "41+"
+        "id": 1,
+        "text": "What's your age range?",
+        "options": [
+            "18-25",
+            "26-30",
+            "31-35",
+            "36-40",
+            "41+"
+        ]
     },
     {
-        "key": "question2",
-        "question": "Are you:",
-        "option1": "A man seeking a woman",
-        "option2": "A woman seeking a man",
-        "option3": "A man seeking a man",
-        "option4": "A woman seeking a woman"
+        "id": 2,
+        "text": "I am a:",
+        "options": [
+            "Man",
+            "Woman"
+        ]
     },
     {
-        "key": "question3",
-        "question": "What's your favourite takeaway?",
-        "option1": "Chinese",
-        "option2": "Indian",
-        "option3": "Pizza",
-        "option4": "Burger and chips",
-        "option5": "Sushi"
+        "id": 3,
+        "text": "Looking for a:",
+        "options": [
+            "Man",
+            "Woman"
+        ]
     },
     {
-        "key": "question4",
-        "question": "What's your favourite kind of holiday?",
-        "option1": "Beach",
-        "option2": "City break",
-        "option3": "Adventure (hiking, sailing etc.)",
-        "option4": "Safari",
-        "option5": "Stay at home"
+        "id": 4,
+        "text": "What's your favourite takeaway?",
+        "options": [
+            "Chinese",
+            "Indian",
+            "Pizza",
+            "Burger and chips",
+            "Sushi"
+        ]
     },
     {
-        "key": "question5",
-        "question": "What's your favourite type of music?",
-        "option1": "Pop",
-        "option2": "Rock/ Punk",
-        "option3": "Hip hop",
-        "option4": "Dance",
-        "option5": "Classical"
+        "id": 5,
+        "text": "What's your favourite kind of holiday?",
+        "options": [
+            "Beach",
+            "City break",
+            "Adventure (hiking, sailing etc.)",
+            "Safari",
+            "Stay at home"
+        ]
     },
     {
-        "key": "question6",
-        "question": "What's your favourite film genre?",
-        "option1": "Comedy",
-        "option2": "Action",
-        "option3": "Thriller/ Horror",
-        "option4": "Sci Fi/ Fantasy",
-        "option5": "Drama"
+        "id": 6,
+        "text": "What's your favourite type of music?",
+        "options": [
+            "Pop",
+            "Rock/ Punk",
+            "Hip hop",
+            "Dance",
+            "Classical"
+        ]
     },
     {
-        "key": "question7",
-        "question": "If you could have one superpower, what would it be?",
-        "option1": "Flying",
-        "option2": "Invisibility",
-        "option3": "Super strength",
-        "option4": "Telepathy",
-        "option5": "X ray vision"
+        "id": 7,
+        "text": "What's your favourite film genre?",
+        "options": [
+            "Comedy",
+            "Action",
+            "Thriller/ Horror",
+            "Sci Fi/ Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "id": 8,
+        "text": "If you could have one superpower, what would it be?",
+        "options": [
+            "Flying",
+            "Invisibility",
+            "Super strength",
+            "Telepathy",
+            "X-ray vision"
+        ]
     }
 ]

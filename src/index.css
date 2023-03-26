@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+
 .links {
   background-color: #e314d2;
 }
@@ -27,6 +38,7 @@
   margin-bottom: 50px;
   text-align: center;
   padding-top: 15px;
+  font-weight: bold;
 }
 
 .contributors {
@@ -41,10 +53,11 @@
 
 .contributor-item img {
   margin: 15px;
-  border-radius: 50%;
+  border-radius: 80%;
   width: 80%;
   height: 80%;
-  border: 1px solid white;
+  border: 1px solid rgb(124, 123, 123);
+  box-shadow: 5px 5px 5px rgb(124, 123, 123);
 }
 
 .contributor-item h5 {
@@ -55,19 +68,19 @@
 }
 
 .socialIcons {
-  text-align: center;
   display: flex;
-  justify-content: center;
+
 }
 
 .socialIcons .icon {
-  color: #e314d2
+  color: #e314d2;
 }
 
 .socialIcons .icon:hover {
   color: #17252a;
   transform: scale(1.2);
 }
+
 
 
 /* css for quiz page */

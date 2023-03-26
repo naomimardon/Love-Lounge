@@ -3,17 +3,23 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import "./Question.css"
 
-const Question = (props) => {
+function Question(props) {
+    const { question, options, selectedAnswer, onAnswerChange } = props;
+
     return (
         <Box className="cardBox" sx={{ flexGrow: 1, padding: 2 }}>
-            <h3 className="quizQuestion">{props.question}</h3>
-            <Button className="quizButton" variant="contained">{props.option1}</Button>
-            <Button className="quizButton" variant="contained">{props.option2}</Button>
-            <Button className="quizButton" variant="contained">{props.option3}</Button>
-            <Button className="quizButton" variant="contained">{props.option4}</Button>
-            <Button className="quizButton" variant="contained">{props.option5}</Button>
+            <h3 className="quizQuestion">{question}</h3>
+            {options.map((option, index) => (
+                <Button
+                    key={`${props.questionId}_${index}`}
+                    variant={selectedAnswer === option ? "contained" : "outlined"}
+                    onClick={() => onAnswerChange(option)}
+                >
+                    {option}
+                </Button>
+            ))}
         </Box>
     );
 };
 
-export default Question
+export default Question;
