@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import TextField from '@mui/material/TextField';
 
+
 const NameField = ({ value, onChange }) => {
+
 
     useEffect(() => {
         // storing input name
