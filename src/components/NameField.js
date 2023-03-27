@@ -1,14 +1,14 @@
-import { useEffect } from "react";
+import React from "react";
 import TextField from '@mui/material/TextField';
 
 
 const NameField = ({ value, onChange }) => {
 
 
-    useEffect(() => {
-        // storing input name
-        localStorage.setItem("Name", JSON.stringify(value));
-    }, [value]);
+    // useEffect(() => {
+    //     // storing input name
+    //     localStorage.setItem("Name", JSON.stringify(value));
+    // }, [value]);
 
     return (
         <TextField
