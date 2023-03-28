@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, React } from "react";
 import Container from '@mui/material/Container';
 import Questions from "../utils/questions.json";
 import { motion } from "framer-motion";
@@ -8,6 +8,7 @@ import RenderFilm from "../components/Activity/renderFilm";
 import RenderMusic from "../components/Activity/renderMusic";
 import RenderMenu from "../components/Activity/renderMenu";
 import RandomActivity from "../components/Activity/random";
+import { firestore } from "../firebase";
 
 function Results() {
     const name = localStorage.getItem('name');
@@ -58,14 +59,32 @@ function Results() {
         }
     }
 
+    useEffect(() => {
+        // Save the matched name to Firebase
+        firestore.collection("matches").add({
+            name: matchName
+        })
+            .then((docRef) => {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch((error) => {
+                console.error("Error adding document: ", error);
+            });
+    }, [matchName]);
+
+
     return (
         <div>
         <Container maxWidth="lg">
             <div style={{ display: "flex", alignItems: "center" }}>
                 <LogoutButton />
-                <button style={{ marginLeft: "10px" }} onClick={() => navigate("/Dashboard")}>
+                <button
+                    style={{ marginLeft: "10px", borderRadius: "8px", cursor: "pointer" }}
+                    onClick={() => navigate("/Dashboard")}
+                >
                     Dashboard
                 </button>
+
             </div>
             <h2>Quiz Results</h2>
             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -116,6 +135,9 @@ function Results() {
                         ))}
                     </ul>
                 </motion.div>
+            </div>
+            <div className="activity">
+                <h1>Activity API AREA</h1>
             </div>
         </Container>
         {takeaways.includes(activityTopic) ? <RenderMenu activityTopic={activityTopic}/> :
