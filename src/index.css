@@ -66,6 +66,8 @@ body {
 .links {
 
   background-color: var(--primary);
+}
+
 
 .links {
   background-color: #e314d2;
@@ -314,3 +316,124 @@ h2 {
 
 /* end css for quiz page */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.links {
+  background-color: #e314d2;
+}
+
+.links li {
+  list-style-type: none;
+
+}
+
+.links a {
+  color: #feffff;
+
+}
+
+.links a:hover {
+  color: rgb(55, 39, 39);
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 30px;
+}
+
+.pageTitle {
+  color: #000000;
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.contributors {
+  background-color: #ffffff;
+}
+
+.contributor-item {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.contributor-item img {
+  margin: 15px;
+  border-radius: 80%;
+  width: 80%;
+  height: 80%;
+  border: 1px solid rgb(124, 123, 123);
+  box-shadow: 5px 5px 5px rgb(124, 123, 123);
+}
+
+.contributor-item h5 {
+  color: rgb(55, 39, 39);
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.socialIcons {
+  display: flex;
+
+}
+
+.socialIcons .icon {
+  color: #e314d2;
+}
+
+.socialIcons .icon:hover {
+  color: #17252a;
+  transform: scale(1.2);
+}
+
+
+
+/* css for quiz page */
+h2 {
+  color: white !important;
+  text-align: center;
+  font-size: 36px;
+}
+
+.quizInstructions {
+  color: white !important;
+  text-align: center;
+}
+
+.questionOne {
+  padding: 0px 24px 16px 24px !important;
+}
+
+.questionOne h3 {
+  margin-left: 10px;
+  padding: 16px !important;
+  color: white !important;
+}
+
+.nameField {
+  margin-left: 26px !important;
+  width: 75%;
+  background-color: white;
+  border-radius: 10px !important;
+}
+
+.nameField label {
+  padding-left: 16px !important;
+  color: #e314d2 !important;
+}
+
+/* end css for quiz page */

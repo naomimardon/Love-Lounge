@@ -12,8 +12,9 @@ const Navbar = () => {
                 <li className="nav-item">
                     <Link to="/Contributors">Contributors</Link>
                 </li>
+
                 <li className="nav-item">
-                    <button className='loginButton' onClick={() => signupWithGoogle()}>Login</button>
+                    <Link to="/QuestionForm">QuestionForm</Link>
                 </li>
 
             </ul>
