@@ -4,14 +4,34 @@ import Questions from "../utils/questions.json";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import LogoutButton from "../components/Logout";
-
-
+import RenderFilm from "../components/Activity/renderFilm";
+import RenderMusic from "../components/Activity/renderMusic";
+import RenderMenu from "../components/Activity/renderMenu";
+import RandomActivity from "../components/Activity/random";
 
 function Results() {
     const name = localStorage.getItem('name');
     const answers = JSON.parse(localStorage.getItem('answers'));
     const matchName = localStorage.getItem('bestMatch');
     const matchAnswers = JSON.parse(localStorage.getItem('bestMatchAnswers'));
+
+    const takeaways = ["Chinese", "Indian", "Pizza", "Burger", "Sushi"];
+    const musicGenres = ["Pop", "Rock", "Hip hop", "Dance", "Classical"];
+    const filmGenres = ["Comedy", "Action", "Thriller/ Horror", "Sci Fi/ Fantasy", "Drama"];
+
+    let matchedAnswers = [];
+
+    for ( let i = 4; i < 9; i++) {
+        if(answers[i] === matchAnswers[i]) {
+            matchedAnswers.push(answers[i]);
+            console.log(`Matched answers: ${matchedAnswers}`);
+        } else {
+            console.log(`No match: ${answers[i]}`);
+        }
+    }
+
+    let activityTopic = matchedAnswers[0];
+    console.log(activityTopic);
 
     const cardVariants = {
         hidden: { x: -500 },
@@ -39,6 +59,7 @@ function Results() {
     }
 
     return (
+        <div>
         <Container maxWidth="lg">
             <div style={{ display: "flex", alignItems: "center" }}>
                 <LogoutButton />
@@ -97,7 +118,11 @@ function Results() {
                 </motion.div>
             </div>
         </Container>
-
+        {takeaways.includes(activityTopic) ? <RenderMenu activityTopic={activityTopic}/> :
+            musicGenres.includes(activityTopic) ? <RenderMusic activityTopic={activityTopic}/> :
+            filmGenres.includes(activityTopic) ? <RenderFilm activityTopic={activityTopic} /> :
+            <RandomActivity /> }
+        </div>
     );
 }
 
