@@ -34,7 +34,7 @@
             "Chinese",
             "Indian",
             "Pizza",
-            "Burger and chips",
+            "Burger",
             "Sushi"
         ]
     },
@@ -54,7 +54,7 @@
         "text": "What's your favourite type of music?",
         "options": [
             "Pop",
-            "Rock/ Punk",
+            "Rock",
             "Hip hop",
             "Dance",
             "Classical"
