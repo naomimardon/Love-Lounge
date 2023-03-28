@@ -15,15 +15,15 @@ const Navbar = () => {
 
     return (
         <nav className="links">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
+            <ul className="nav justify-content-end">
+                <li className="nav-item">
                     <Link to="/">Home</Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link to="/Contributors">Contributors</Link>
                 </li>
-                <li class="nav-item">
-                    <Link to="/Login">Login</Link>
+                <li className="nav-item">
+                    <button className='loginButton' onClick={() => signupWithGoogle()}>Login</button>
                 </li>
 
             </ul>
