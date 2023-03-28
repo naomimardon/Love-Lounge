@@ -19,12 +19,15 @@ const GoogleLogin = ({ onSubmit }) => {
     }
   };
   return (
-    <div>
-      {loggedIn ? (
-        <button onClick={logout}>Logout</button>
-      ) : (
-        <button onClick={handleLogin}>Login with Google</button>
-      )}
+    <div className="container">
+      <h1 className="header">Login to find your match!</h1>
+      <div className="login-form">
+        {loggedIn ? (
+          <button className="logout-btn" onClick={logout}>Logout</button>
+        ) : (
+          <button className="google-login-btn" onClick={handleLogin}>Login with Google</button>
+        )}
+      </div>
     </div>
   );
 };

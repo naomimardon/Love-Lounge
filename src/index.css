@@ -81,6 +81,35 @@ body,
   transform: scale(1.2);
 }
 
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+.google-login-btn {
+  cursor: pointer;
+  scale: 2.5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+
 
 
 /* css for quiz page */
