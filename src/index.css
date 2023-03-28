@@ -1,15 +1,15 @@
 main {
-	margin: 0 auto;
-	max-width: 90%;
-	padding: 50px 30px;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
 }
 
 :root {
-	--primary: #FD297B;
-  --primaryFade:#fd297a4d;
-	--secondary: #ffffff;
+  --primary: #FD297B;
+  --primaryFade: #fd297a4d;
+  --secondary: #ffffff;
   --onHover: #ff5194;
-  --fontMain: 'Josefin Sans', sans-serif; 
+  --fontMain: 'Josefin Sans', sans-serif;
 }
 
 .btn {
@@ -22,7 +22,7 @@ main {
 .btn:hover {
   background-color: var(--onHover) !important;
   color: var(--secondary) !important;
- }
+}
 
 hr {
   max-width: 100px;
@@ -54,12 +54,12 @@ p {
 }
 
 * {
-	box-sizing: border-box
+  box-sizing: border-box
 }
 
 html,
 body {
-	min-height: 100%;
+  min-height: 100%;
 }
 
 
@@ -92,7 +92,7 @@ a {
   text-decoration: none !important;
 }
 
-.loginButton{
+.loginButton {
   border-radius: 4px;
   color: var(--secondary);
   background-color: var(--primary);
@@ -103,6 +103,9 @@ a {
   margin: 30px;
 }
 
+.dashboard h2 {
+  color: black !important;
+}
 
 
 .pageTitle {
@@ -131,8 +134,8 @@ header.masthead {
 }
 
 .my-auto {
-  margin-top: auto!important;
-  margin-bottom: auto!important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 
 header.masthead .header-content {
@@ -157,9 +160,9 @@ header.masthead .device-container .screen img {
 }
 
 .my-auto {
- background-color: var(--primaryFade);
- padding: 74px 0px 0px 0px !important;
- border-radius: 24px;
+  background-color: var(--primaryFade);
+  padding: 74px 0px 0px 0px !important;
+  border-radius: 24px;
 }
 
 header.masthead .header-content h1 {
@@ -214,12 +217,12 @@ section.howItWork {
   padding-bottom: 7rem;
 }
 
-.howItworks{
+.howItworks {
   background-color: var(--primary) !important;
   color: var(--secondary);
   padding: 32px;
   border-radius: 24px;
-} 
+}
 
 .css-zf0iqh {
   min-height: 13vh !important;
@@ -466,3 +469,40 @@ h2 {
 }
 
 /* end css for quiz page */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  max-width: 200px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: black !important;
+}
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-list li {
+  margin-bottom: 4px;
+}
+
+.dashboard-h1 {
+  text-align: center;
+}

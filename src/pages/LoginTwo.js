@@ -2,20 +2,20 @@ import React, { useEffect } from 'react';
 import GoogleLogin from './GoogleLogin';
 import { useNavigate } from 'react-router-dom';
 
-const Login = () => {
+const LoginTwo = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
         const isLoggedIn = localStorage.getItem('isLoggedIn');
         if (isLoggedIn === 'true') {
-            navigate('/results');
+            navigate('/dashboard');
         }
     }, [navigate]);
 
     const onSubmit = (user) => {
         console.log(user);
         localStorage.setItem('isLoggedIn', 'true');
-        navigate('/results');
+        navigate('/dashboard');
     };
 
     return (
@@ -25,4 +25,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default LoginTwo;

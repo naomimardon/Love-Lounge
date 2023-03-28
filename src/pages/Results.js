@@ -4,7 +4,7 @@ import Questions from "../utils/questions.json";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import LogoutButton from "../components/Logout";
-import { firestore } from "../firebase"
+import { db, auth } from "../firebase"
 
 
 
@@ -14,6 +14,7 @@ function Results() {
     const matchName = localStorage.getItem('bestMatch');
     const matchAnswers = JSON.parse(localStorage.getItem('bestMatchAnswers'));
 
+    const navigate = useNavigate();
     const cardVariants = {
         hidden: { x: -500 },
         visible: {
@@ -25,7 +26,26 @@ function Results() {
             }
         }
     }
-    const navigate = useNavigate();
+
+
+    const saveMatch = () => {
+        const currentUser = auth.currentUser;
+        if (currentUser) {
+            const uid = currentUser.uid;
+            const matchRef = db.collection('users').doc(uid).collection('PreviousMatches').doc();
+            matchRef.set({
+                matchName,
+                matchAnswers
+            })
+                .then(() => {
+                    console.log("Match saved successfully");
+                })
+        }
+    }
+    useEffect(() => {
+        saveMatch();
+    }, []);
+
 
     const cardVariantsTwo = {
         hidden: { x: 500 },
@@ -38,19 +58,6 @@ function Results() {
             }
         }
     }
-
-    useEffect(() => {
-        // Save the matched name to Firebase
-        firestore.collection("matches").add({
-            name: matchName
-        })
-            .then((docRef) => {
-                console.log("Document written with ID: ", docRef.id);
-            })
-            .catch((error) => {
-                console.error("Error adding document: ", error);
-            });
-    }, [matchName]);
 
 
     return (
