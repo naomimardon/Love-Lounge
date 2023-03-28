@@ -1,9 +1,10 @@
-import React from "react";
+import { useEffect, React } from "react";
 import Container from '@mui/material/Container';
 import Questions from "../utils/questions.json";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import LogoutButton from "../components/Logout";
+import { firestore } from "../firebase"
 
 
 
@@ -38,13 +39,31 @@ function Results() {
         }
     }
 
+    useEffect(() => {
+        // Save the matched name to Firebase
+        firestore.collection("matches").add({
+            name: matchName
+        })
+            .then((docRef) => {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch((error) => {
+                console.error("Error adding document: ", error);
+            });
+    }, [matchName]);
+
+
     return (
         <Container maxWidth="lg">
             <div style={{ display: "flex", alignItems: "center" }}>
                 <LogoutButton />
-                <button style={{ marginLeft: "10px" }} onClick={() => navigate("/Dashboard")}>
+                <button
+                    style={{ marginLeft: "10px", borderRadius: "8px", cursor: "pointer" }}
+                    onClick={() => navigate("/Dashboard")}
+                >
                     Dashboard
                 </button>
+
             </div>
             <h2>Quiz Results</h2>
             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -95,6 +114,9 @@ function Results() {
                         ))}
                     </ul>
                 </motion.div>
+            </div>
+            <div className="activity">
+                <h1>Activity API AREA</h1>
             </div>
         </Container>
 
