@@ -1,0 +1,86 @@
+[
+    {
+
+        "id": 1,
+        "text": "What's your age range?",
+        "options": [
+            "18-25",
+            "26-30",
+            "31-35",
+            "36-40",
+            "41+"
+        ]
+    },
+    {
+        "id": 2,
+        "text": "I am a:",
+        "options": [
+            "Man",
+            "Woman"
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Looking for a:",
+        "options": [
+            "Man",
+            "Woman"
+        ]
+    },
+    {
+        "id": 4,
+        "text": "What's your favourite takeaway?",
+        "options": [
+            "Chinese",
+            "Indian",
+            "Pizza",
+            "Burger and chips",
+            "Sushi"
+        ]
+    },
+    {
+        "id": 5,
+        "text": "What's your favourite kind of holiday?",
+        "options": [
+            "Beach",
+            "City break",
+            "Adventure (hiking, sailing etc.)",
+            "Safari",
+            "Stay at home"
+        ]
+    },
+    {
+        "id": 6,
+        "text": "What's your favourite type of music?",
+        "options": [
+            "Pop",
+            "Rock/ Punk",
+            "Hip hop",
+            "Dance",
+            "Classical"
+        ]
+    },
+    {
+        "id": 7,
+        "text": "What's your favourite film genre?",
+        "options": [
+            "Comedy",
+            "Action",
+            "Thriller/ Horror",
+            "Sci Fi/ Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "id": 8,
+        "text": "If you could have one superpower, what would it be?",
+        "options": [
+            "Flying",
+            "Invisibility",
+            "Super strength",
+            "Telepathy",
+            "X-ray vision"
+        ]
+
+    }
+]
