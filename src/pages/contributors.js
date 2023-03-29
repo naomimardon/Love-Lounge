@@ -10,7 +10,7 @@ const Contributors = () => {
     return (
         <div>
             <section className="contributors">
-                <PageHeader title="THE BRAINS BEHIND THE PROJECT" />
+                <PageHeader title="The Brains Behind The Project" />
                 <div className="container">
                     <p className="content">
                         {/* ... */}
@@ -25,7 +25,7 @@ const Contributors = () => {
                                 transition={{ duration: 0.2, ease: "easeOut" }}
                             >
                                 <img src={hoger} alt="" className="heart-shape" />
-                                <h5>HOGER SHORESH</h5>
+                                <h5>Hoger Shoresh</h5>
                                 <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/hoggi90"
@@ -41,7 +41,7 @@ const Contributors = () => {
                                 transition={{ duration: 0.2, ease: "easeOut" }}
                             >
                                 <img src={imran} alt="" />
-                                <h5>IMRAN AFTAB</h5>
+                                <h5>Imran Aftab</h5>
                                 <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/naomimardon"
@@ -56,7 +56,7 @@ const Contributors = () => {
                                 animate={{ x: 0 }}
                                 transition={{ duration: 0.2, ease: "easeOut" }}>
                                 <img src={naomi} alt="" />
-                                <h5>NAOMI MARDON</h5>
+                                <h5>Naomi Mardon</h5>
                                 <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/naomimardon"
