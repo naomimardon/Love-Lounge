@@ -136,9 +136,6 @@ function Results() {
                     </ul>
                 </motion.div>
             </div>
-            <div className="activity">
-                <h1>Activity API AREA</h1>
-            </div>
         </Container>
         {takeaways.includes(activityTopic) ? <RenderMenu activityTopic={activityTopic}/> :
             musicGenres.includes(activityTopic) ? <RenderMusic activityTopic={activityTopic}/> :

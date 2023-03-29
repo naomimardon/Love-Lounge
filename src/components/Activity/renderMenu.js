@@ -8,7 +8,7 @@ const RenderMenu = (props) => {
     const [menu, setMenu] = useState("");
 
     const fetchMenu = async () => {
-        const menuKey = "OWMQzJnBBh9VNofbFoVk9Q==JAMXO06cSi2Kzjdh";
+        const menuKey = "JA4B88GAnoJZR9OPoUhBYiGacnUGyiGQ5qXQbytM";
         let cuisine = `${props.activityTopic}`;
         console.log(`Cuisine: ${cuisine}`);
 
@@ -17,8 +17,8 @@ const RenderMenu = (props) => {
                 headers: { 'X-Api-Key': menuKey },
                 contentType: "application/json"
             });
-            setMenu(res.data[0].title)
-            // setMenu(res.data[Math.floor(Math.random() * res.data.length).title])
+            setMenu(res.data[3].title)
+            // setMenu(res.data[Math.floor(Math.random() * res.data.length)].title)
             console.log(res.data);
         } catch (err) {
             console.log(err);
