@@ -27,6 +27,18 @@ function HomeContent() {
           </div>
         </div>
       </header >
+      <section className="howItWork text-center bg-light">
+        <div className="container howItworks" id="howItworks">
+          <h2 className="mb-5">How it Works...</h2>
+          <ol>
+            <li>Click on the button above: 'Find Your Match...'</li>
+            <li>Complete the short questionnaire to tell us a bit about yourself</li>
+            <li>We'll find you a match, based on your shared interests and suggest an activity for you to do together</li>
+            <li>Get to know your match and find a deeper connection, not just based on looks</li>
+          </ol>
+          <h2 className="mb-5">Find a love that lasts!</h2>
+        </div>
+      </section>
       <section className="download bg-primary text-center" id="download">
         <div className="container" id="appContainer">
           <div className="row">
@@ -39,18 +51,6 @@ function HomeContent() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="howItWork text-center bg-light">
-        <div className="container howItworks" id="howItworks">
-          <h2 className="mb-5">How it Works...</h2>
-          <ol>
-            <li>Click on the button above: 'Find Your Match...'</li>
-            <li>Complete the short questionnaire to tell us a bit about yourself</li>
-            <li>We'll find you a match, based on your shared interests and suggest an activity for you to do together</li>
-            <li>Get to know your match and find a deeper connection, not just based on looks</li>
-          </ol>
-          <h2 className="mb-5">Find a love that lasts!</h2>
         </div>
       </section>
     </div >
