@@ -1,7 +1,6 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+  max-width: 100%;
 }
 
 :root {
@@ -97,21 +96,15 @@ a {
   margin: 30px;
 }
 
-.dashboard h2 {
-  color: black !important;
-}
-
 
 .pageTitle {
   color: #000000;
   font-size: 36px;
-  margin-bottom: 50px;
+  margin: 50px;
   text-align: center;
 }
 
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
+#homeBox {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,16 +157,6 @@ header.masthead .header-content h1 {
   color: var(--secondary);
 }
 
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  justify-content: center;
-}
-
 #download {
   background-color: var(--primary) !important;
 }
@@ -222,9 +205,8 @@ section.howItWork {
   min-height: 13vh !important;
 }
 
-.css-9jyc04 {
-  margin-top: 0px !important;
-  background-color: var(--primary) !important;
+.css-1a255yu {
+  min-height: 0 !important;
 }
 
 .css-1uwgr7b-MuiTypography-root {
@@ -269,7 +251,7 @@ section.howItWork {
 }
 
 .socialIcons .icon {
-  color: #e314d2;
+  color: #FD297B;
 }
 
 .socialIcons .icon:hover {
@@ -313,85 +295,6 @@ h2 {
 
 /* end css for quiz page */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
-html,
-body,
-#root {
-  height: 100%;
-  background-color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-}
-
-.links li {
-  list-style-type: none;
-
-}
-
-.links a {
-  color: #feffff;
-
-}
-
-.links a:hover {
-  color: rgb(55, 39, 39);
-  text-decoration: none;
-}
-
-.nav-item {
-  margin: 30px;
-}
-
-.pageTitle {
-  color: #000000;
-  font-size: 36px;
-  margin-bottom: 50px;
-  text-align: center;
-  padding-top: 15px;
-  font-weight: bold;
-}
-
-.contributors {
-  background-color: #ffffff;
-}
-
-.contributor-item {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-}
-
-.contributor-item img {
-  margin: 15px;
-  border-radius: 80%;
-  width: 80%;
-  height: 80%;
-  border: 1px solid rgb(124, 123, 123);
-  box-shadow: 5px 5px 5px rgb(124, 123, 123);
-}
-
-.contributor-item h5 {
-  color: rgb(55, 39, 39);
-  font-size: 22px;
-  font-weight: bold;
-
-}
-
-.socialIcons {
-  display: flex;
-
-}
-
-.socialIcons .icon {
-  color: #e314d2;
-}
-
-.socialIcons .icon:hover {
-  color: #17252a;
-  transform: scale(1.2);
-}
-
 .header {
   text-align: center;
   margin: 20px;
@@ -403,7 +306,6 @@ body,
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-
 
 }
 
@@ -419,45 +321,6 @@ body,
   width: 100%;
   margin: auto;
 }
-
-
-
-
-/* css for quiz page */
-h2 {
-  color: white !important;
-  text-align: center;
-  font-size: 36px;
-}
-
-.quizInstructions {
-  color: white !important;
-  text-align: center;
-}
-
-.questionOne {
-  padding: 0px 24px 16px 24px !important;
-}
-
-.questionOne h3 {
-  margin-left: 10px;
-  padding: 16px !important;
-  color: white !important;
-}
-
-.nameField {
-  margin-left: 26px !important;
-  width: 75%;
-  background-color: white;
-  border-radius: 10px !important;
-}
-
-.nameField label {
-  padding-left: 16px !important;
-  color: #e314d2 !important;
-}
-
-/* end css for quiz page */
 
 .card-container {
   display: flex;
@@ -494,4 +357,15 @@ h2 {
 
 .dashboard-h1 {
   text-align: center;
+}
+
+.dashboard h2 {
+  color: black !important;
+}
+
+.LoginTwo-Page {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
 }

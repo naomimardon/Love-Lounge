@@ -16,7 +16,7 @@ function HomeContent() {
     <div>
       <header className="masthead">
         <div className="container h-100">
-          <div className="row h-100">
+          <div className="row h-100" id="homeBox">
             <div className="col-lg-7 my-auto">
               <div className="header-content mx-auto">
                 <h1 className="mb-5">Welcome to Love Lounge!</h1>

@@ -19,7 +19,7 @@ const LoginTwo = () => {
     };
 
     return (
-        <div>
+        <div className="LoginTwo-Page">
             <GoogleLogin onSubmit={onSubmit} />
         </div>
     );
