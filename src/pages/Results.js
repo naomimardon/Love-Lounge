@@ -3,7 +3,6 @@ import Container from '@mui/material/Container';
 import Questions from "../utils/questions.json";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import LogoutButton from "../components/Logout";
 import { db, auth } from "../firebase"
 import RenderFilm from "../components/Activity/renderFilm";
 import RenderMusic from "../components/Activity/renderMusic";
@@ -85,7 +84,6 @@ function Results() {
         <div>
             <Container maxWidth="lg">
                 <div style={{ display: "flex", alignItems: "center" }}>
-                    <LogoutButton />
                     <button
                         style={{ marginLeft: "10px", borderRadius: "8px", cursor: "pointer" }}
                         onClick={() => navigate("/Dashboard")}

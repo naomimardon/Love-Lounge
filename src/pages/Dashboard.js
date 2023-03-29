@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { db, auth } from '../firebase';
-import Logout from "../components/Logout"
+import PageHeader from '../components/PageHeader';
+import LogoutButton from '../components/Logout';
 
 function Dashboard() {
     const [matches, setMatches] = useState([]);
+    const [displayName, setDisplayName] = useState('');
+
 
 
     useEffect(() => {
@@ -17,14 +20,16 @@ function Dashboard() {
                         matches.push(doc.data());
                     });
                     setMatches(matches);
-                })
+                });
+            setDisplayName(currentUser.displayName);
         }
     }, []);
 
     return (
         <div className="container">
-            <Logout />
-            <h1 className="dashboard-h1">Previous Searches</h1>
+            <PageHeader title="PREVIOUS MATCHES" />
+            <h2 className="welcomeback">Welcome back, {displayName}</h2>
+            <LogoutButton />
             <div className="card-container">
                 {matches.map((match, index) => (
                     <div className="card" key={index}>
@@ -37,6 +42,7 @@ function Dashboard() {
                     </div>
                 ))}
             </div>
+
         </div>
 
     );
