@@ -9,7 +9,7 @@ const RandomActivity = () => {
 
     const fetchActivity = async () => {
         try {
-            const res = await axios.get("http://www.boredapi.com/api/activity?type=social&participants=2");
+            const res = await axios.get("https://www.boredapi.com/api/activity?type=social&participants=2");
             setActivity(res.data.activity);
         } catch (err) {
             console.log(err);

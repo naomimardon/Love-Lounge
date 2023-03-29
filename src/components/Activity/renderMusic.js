@@ -12,8 +12,8 @@ const RenderMusic = (props) => {
         let musicGenre = `${props.activityTopic}`;
 
         try {
-            const res = await axios.get("http://ws.audioscrobbler.com/2.0/?method=tag.gettopartists&tag=" + musicGenre + "&api_key=" + musicKey + "&format=json");
-            setMusic(res.data.topartists.artist[0].name)
+            const res = await axios.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettopartists&tag=" + musicGenre + "&api_key=" + musicKey + "&format=json");
+            setMusic(res.data.topartists.artist[4].name)
             // setMusic(res.data.topartists.artist[Math.floor(Math.random() * res.data.topartists.artist.length)].name)
         } catch (err) {
             console.log(err);
