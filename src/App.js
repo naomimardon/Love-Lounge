@@ -24,9 +24,6 @@ const App = () => {
         <Route path="/Results" element={<Results />} />
         <Route path="/GoogleLogin" element={<GoogleLogin />} />
         <Route path="/Dashboard" element={<Dashboard />} />
-
-
-
       </Routes>
       <Footer />
     </Router>

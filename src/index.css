@@ -161,7 +161,6 @@ header.masthead .header-content h1 {
   background-color: var(--primary) !important;
 }
 
-
 section.download {
   position: relative;
   padding: 150px 0;
@@ -368,4 +367,8 @@ h2 {
   min-height: 80vh;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.welcomeback {
+  color: black !important;
 }

@@ -10,15 +10,15 @@ const LogoutButton = () => {
         try {
             localStorage.clear();
             await logout();
-            navigate('/homepage');
+            navigate('/');
         } catch (error) {
             console.error(error);
         }
     };
 
     return (
-        <div>
-            <button style={{ borderRadius: "10px", cursor: "pointer" }} onClick={handleLogout}>Logout</button>
+        <div style={{ textAlign: "center" }}>
+            <button style={{ cursor: "pointer", scale: "1.5", width: "200px" }} onClick={handleLogout}>Logout</button>
         </div>
     );
 };
