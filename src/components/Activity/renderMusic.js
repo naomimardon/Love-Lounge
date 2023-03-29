@@ -27,7 +27,7 @@ useEffect(() => {
 return (
     <div>
         <Container maxWidth="lg">
-            <Box sx={{ bgcolor: '#e314d2', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+            <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
                 <PageHeader title="SUGGESTED ACTIVITY" />
                 <p className="quizInstructions">Discover a new artist together: {music}</p>
 

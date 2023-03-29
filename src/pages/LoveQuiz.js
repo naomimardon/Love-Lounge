@@ -36,6 +36,8 @@ function LoveQuiz() {
     localStorage.setItem('bestMatch', bestMatch);
     localStorage.setItem('bestMatchAnswers', JSON.stringify(bestMatchAnswers));
     navigate('/Login');
+    console.log(`Name: ${name}`);
+    console.log(`Answers: ${answers}`);
   };
 
   let filteredMatches = matches;
