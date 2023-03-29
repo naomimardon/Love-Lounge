@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 import Homepage from "./pages/homepage";
 import Contributors from "./pages/contributors";
 import Footer from "./components/Footer";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import LoginTwo from "./pages/LoginTwo";
 import LoveQuiz from "./pages/LoveQuiz";
 import Results from "./pages/Results";
