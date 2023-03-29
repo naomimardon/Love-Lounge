@@ -56,7 +56,7 @@ const Contributors = () => {
                                 animate={{ x: 0 }}
                                 transition={{ duration: 0.2, ease: "easeOut" }}>
                                 <img src={naomi} alt="" />
-                                <h5>NAOMI MORDAN</h5>
+                                <h5>NAOMI MARDON</h5>
                                 <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/naomimardon"

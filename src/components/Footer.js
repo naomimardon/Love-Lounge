@@ -21,7 +21,6 @@ const Footer = () => {
         display: 'flex',
         flexDirection: 'column',
         minHeight: '20vh',
-        margin: "auto 0",
       }}
     >
       <CssBaseline />
