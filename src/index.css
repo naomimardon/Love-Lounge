@@ -204,6 +204,16 @@ section.howItWork {
   min-height: fit-content;
 }
 
+.howItworks ol {
+  text-align: left;
+  padding: 0px 15% 50px;
+  font-size: 1.6rem;
+}
+
+.howItworks li {
+  padding: 5px;
+}
+
 .css-zf0iqh {
   min-height: 13vh !important;
 }
