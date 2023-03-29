@@ -200,6 +200,10 @@ section.howItWork {
   border-radius: 24px;
 }
 
+#howItworks {
+  min-height: fit-content;
+}
+
 .css-zf0iqh {
   min-height: 13vh !important;
 }
@@ -371,4 +375,12 @@ h2 {
 
 .welcomeback {
   color: black !important;
+}
+
+.container {
+  min-height: 75vh;
+}
+
+#appContainer {
+  min-height: fit-content;
 }
