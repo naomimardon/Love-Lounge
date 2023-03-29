@@ -98,7 +98,7 @@ a {
 
 
 .pageTitle {
-  color: #000000;
+  color: var(--secondary);
   font-size: 36px;
   margin: 50px;
   text-align: center;
@@ -115,7 +115,7 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;
+  color: var(--secondary);
   background: url("./images/HeroImage.jpg");
   background-size: cover;
 }
@@ -274,13 +274,13 @@ section.howItWork {
 
 /* css for quiz page */
 h2 {
-  color: white !important;
+  color: var(--secondary) !important;
   text-align: center;
   font-size: 36px;
 }
 
 .quizInstructions {
-  color: white !important;
+  color: var(--secondary) !important;
   text-align: center;
 }
 
@@ -291,7 +291,7 @@ h2 {
 .questionOne h3 {
   margin-left: 10px;
   padding: 16px !important;
-  color: white !important;
+  color: var(--secondary) !important;
 }
 
 .nameField {
@@ -303,7 +303,7 @@ h2 {
 
 .nameField label {
   padding-left: 16px !important;
-  color: #e314d2 !important;
+  color: #FD297B !important;
 }
 
 /* end css for quiz page */
