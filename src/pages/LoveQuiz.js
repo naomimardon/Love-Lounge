@@ -13,7 +13,7 @@ import PageHeader from "../components/PageHeader";
 let bestMatch = null;
 let bestMatchAnswers = null;
 
-function QuestionForm() {
+function LoveQuiz() {
   const navigate = useNavigate();
   const [name, setName] = useState("");
   const [answers, setAnswers] = useState({});
@@ -77,7 +77,7 @@ function QuestionForm() {
 
   console.log("Best match name:", bestMatch);
   console.log("their answers:", bestMatchAnswers);
-  console.log("Their score", maxScore);
+
 
   return (
     <div>
@@ -110,6 +110,6 @@ function QuestionForm() {
   );
 }
 
-export default QuestionForm;
+export default LoveQuiz;
 export { bestMatch, bestMatchAnswers };
 

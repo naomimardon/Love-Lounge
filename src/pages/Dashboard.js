@@ -1,42 +1,46 @@
-import React, { useState, useEffect } from "react";
-import { firestore } from "../firebase";
+import React, { useState, useEffect } from 'react';
+import { db, auth } from '../firebase';
+import Logout from "../components/Logout"
 
 function Dashboard() {
     const [matches, setMatches] = useState([]);
 
-    useEffect(() => {
-        // Fetch the matches collection from Firestore
-        const unsubscribe = firestore.collection("matches").onSnapshot((snapshot) => {
-            const matchesData = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
-            setMatches(matchesData);
-        });
 
-        // Unsubscribe from the Firestore snapshot listener when the component unmounts
-        return () => unsubscribe();
+    useEffect(() => {
+        const currentUser = auth.currentUser;
+        if (currentUser) {
+            const uid = currentUser.uid;
+            db.collection('users').doc(uid).collection('PreviousMatches').get()
+                .then((querySnapshot) => {
+                    const matches = [];
+                    querySnapshot.forEach((doc) => {
+                        matches.push(doc.data());
+                    });
+                    setMatches(matches);
+                })
+        }
     }, []);
 
     return (
-        <div>
-            <h2>Matches</h2>
-            {matches.length === 0 ? (
-                <p>No matches yet</p>
-            ) : (
-                <ul>
-                    {matches.map((match) => (
-                        <li key={match.id}>
-                            <h3>{match.name}</h3>
-                            <p>Their answers:</p>
-                            <ul>
-                                {match.answers.map((answer, index) => (
-                                    <li key={index}>{answer}</li>
-                                ))}
-                            </ul>
-                        </li>
-                    ))}
-                </ul>
-            )}
+        <div className="container">
+            <Logout />
+            <h1 className="dashboard-h1">Previous Searches</h1>
+            <div className="card-container">
+                {matches.map((match, index) => (
+                    <div className="card" key={index}>
+                        <h2 className="card-title">{match.matchName}</h2>
+                        <ul className="card-list">
+                            {Object.entries(match.matchAnswers).map(([key, value]) => (
+                                <li key={key}>{`${key}: ${value}`}</li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
         </div>
+
     );
+
 }
 
 export default Dashboard;
