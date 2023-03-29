@@ -82,7 +82,7 @@ function LoveQuiz() {
   return (
     <div>
       <Container maxWidth="lg">
-        <Box sx={{ bgcolor: '#e314d2', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+        <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
           <PageHeader title="LOVE QUIZ" />
           <p className="quizInstructions">Fill out the quick questionnaire below and we'll use your answers to match you with like-minded people!</p>
           <Container className="questionOne">
