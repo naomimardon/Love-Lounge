@@ -20,7 +20,7 @@ function HomeContent() {
             <div className="col-lg-7 my-auto">
               <div className="header-content mx-auto">
                 <h1 className="mb-5">Welcome to Love Lounge!</h1>
-                <h4>A place to find your Perfect Match.</h4>
+                <h4 className="subtitle">A place to find your Perfect Match.</h4>
                 <button className="btn btn-outline btn-xl js-scroll-trigger" onClick={StartQuiz}>Find Your Match...</button>
               </div>
             </div>
@@ -45,12 +45,12 @@ function HomeContent() {
         <div className="container howItworks" id="howItworks">
           <h2 className="mb-5">How it Works...</h2>
           <ol>
-            <li>Click on the button above: 'Find Your Match...'</li> 
+            <li>Click on the button above: 'Find Your Match...'</li>
             <li>Complete the short questionnaire to tell us a bit about yourself</li>
             <li>We'll find you a match, based on your shared interests and suggest an activity for you to do together</li>
             <li>Get to know your match and find a deeper connection, not just based on looks</li>
-            </ol> 
-            <h2 className="mb-5">Find a love that lasts!</h2>
+          </ol>
+          <h2 className="mb-5">Find a love that lasts!</h2>
         </div>
       </section>
     </div >
