@@ -27,7 +27,7 @@ function Dashboard() {
 
     return (
         <div className="container">
-            <PageHeader title="PREVIOUS MATCHES" />
+            <PageHeader title="Previous Matches" />
             <h2 className="welcomeback">Welcome back, {displayName}</h2>
             <LogoutButton />
             <div className="card-container">
