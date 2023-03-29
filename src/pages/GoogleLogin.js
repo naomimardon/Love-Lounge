@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useAuth } from "../Context/AuthContext";
 import { provider } from "../firebase";
+import PageHeader from '../components/PageHeader';
 
 const GoogleLogin = ({ onSubmit }) => {
   const { currentUser, loggedIn, signupWithGoogle, logout } = useAuth();
@@ -20,7 +21,7 @@ const GoogleLogin = ({ onSubmit }) => {
   };
   return (
     <div className="container">
-      <h1 className="header">Login to find your match!</h1>
+      <PageHeader title="Login to find your match!" />
       <div className="login-form">
         {loggedIn ? (
           <button className="logout-btn" onClick={logout}>Logout</button>

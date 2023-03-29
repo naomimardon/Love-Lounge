@@ -19,7 +19,7 @@ main {
   width: 200px;
   box-shadow: 4px 4px 4px #5f5c5c;
   scale: 1.5;
-  text-shadow: 4px 4px 4px #17252a;
+  text-shadow: 4px 4px 4px #30333c;
 }
 
 .btn:hover {
@@ -47,7 +47,7 @@ h6 {
   font-family: var(--fontMain);
   font-weight: 200;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 2px #17252a;
+  text-shadow: 2px 2px 2px #30333c;
 
 }
 
@@ -56,14 +56,14 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 2px #17252a;
+  text-shadow: 2px 2px 2px #30333c;
 
 }
 
 li {
   font-family: var(--fontMain);
   font-weight: lighter;
-  text-shadow: 2px 2px 2px #17252a;
+  text-shadow: 2px 2px 2px #30333c;
 }
 
 * {
@@ -77,16 +77,16 @@ body {
 
 .links {
 
-  background-color: #ff5194;
+  background-color: #FD297B
 }
 
 .mb-5 {
-  text-shadow: 4px 4px 4px #17252a;
+  text-shadow: 4px 4px 4px #30333c;
   font-size: 40px !important;
 }
 
 .subtitle {
-  text-shadow: 4px 4px 4px #17252a;
+  text-shadow: 4px 4px 4px #30333c;
   margin-bottom: 25px;
 }
 
@@ -109,16 +109,14 @@ a {
   text-decoration: none !important;
 }
 
-
-
 .nav-item {
   margin: 30px;
 }
 
 
 .pageTitle {
-  color: black;
-  font-size: 36px;
+  color: white;
+  font-size: 45px;
   margin: 50px;
   text-align: center;
 }
@@ -266,9 +264,11 @@ section.howItWork {
 }
 
 .contributor-item h5 {
-  color: rgb(55, 39, 39);
-  font-size: 22px;
+  font-size: 30px;
   font-weight: bold;
+  font-family: var(--fontMain);
+  letter-spacing: 1px;
+  text-shadow: none !important;
 
 }
 
@@ -282,7 +282,7 @@ section.howItWork {
 }
 
 .socialIcons .icon:hover {
-  color: #17252a;
+  color: var(--primaryFade);
   transform: scale(1.2);
 }
 
@@ -371,6 +371,8 @@ h2 {
   font-size: 24px;
   margin-bottom: 16px;
   color: black !important;
+  text-shadow: none;
+
 }
 
 .card-list {
@@ -381,6 +383,8 @@ h2 {
 
 .card-list li {
   margin-bottom: 4px;
+  text-shadow: none;
+
 }
 
 .dashboard-h1 {
@@ -400,6 +404,7 @@ h2 {
 
 .welcomeback {
   color: black !important;
+  text-shadow: none;
 }
 
 .container {
@@ -408,4 +413,14 @@ h2 {
 
 #appContainer {
   min-height: fit-content;
+}
+
+.quizimg {
+  position: absolute;
+  z-index: -1;
+  margin-top: -16px;
+  background-position: center;
+  height: 1650px;
+  width: 100%;
+
 }

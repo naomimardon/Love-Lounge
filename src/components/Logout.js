@@ -18,7 +18,7 @@ const LogoutButton = () => {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <button style={{ cursor: "pointer", scale: "1.5", width: "200px" }} onClick={handleLogout}>Logout</button>
+            <button style={{ cursor: "pointer", scale: "1.5", width: "200px", fontFamily: "var(--fontMain)" }} onClick={handleLogout}>Logout</button>
         </div>
     );
 };

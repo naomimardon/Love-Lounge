@@ -24,9 +24,8 @@ const Contributors = () => {
                                 animate={{ x: 0 }}
                                 transition={{ duration: 0.2, ease: "easeOut" }}
                             >
-                                <img src={hoger} alt="" className="heart-shape" />
+                                <img src={hoger} alt="" />
                                 <h5>Hoger Shoresh</h5>
-                                <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/hoggi90"
                                     linkedinUrl="https://www.linkedin.com/in/hoger-shoresh/"
@@ -42,7 +41,6 @@ const Contributors = () => {
                             >
                                 <img src={imran} alt="" />
                                 <h5>Imran Aftab</h5>
-                                <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/naomimardon"
                                     linkedinUrl="https://www.linkedin.com/in/naomi-mardon-79099455/"
@@ -57,7 +55,6 @@ const Contributors = () => {
                                 transition={{ duration: 0.2, ease: "easeOut" }}>
                                 <img src={naomi} alt="" />
                                 <h5>Naomi Mardon</h5>
-                                <p>PUT SOMETHING INTERESTING HERE</p>
                                 <Socials
                                     githubUrl="https://github.com/naomimardon"
                                     linkedinUrl="https://www.linkedin.com/in/naomi-mardon-79099455/"
