@@ -21,6 +21,7 @@ const Footer = () => {
         display: 'flex',
         flexDirection: 'column',
         minHeight: '20vh',
+        margin: "auto 0",
       }}
     >
       <CssBaseline />
@@ -31,10 +32,7 @@ const Footer = () => {
           py: 3,
           px: 2,
           mt: 'auto',
-          backgroundColor: (theme) =>
-            theme.palette.mode === 'light'
-              ? theme.palette.grey[200]
-              : theme.palette.grey[800],
+          backgroundColor: '#FD297B',
         }}
       >
         <Container maxWidth="sm">
