@@ -62,15 +62,9 @@ body {
   min-height: 100%;
 }
 
-
 .links {
 
-  background-color: var(--primary);
-}
-
-
-.links {
-  background-color: #e314d2;
+  background-color: #ff5194;
 }
 
 .links li {
@@ -328,11 +322,6 @@ body,
   height: 100%;
   background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
-}
-
-
-.links {
-  background-color: #e314d2;
 }
 
 .links li {
