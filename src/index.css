@@ -90,11 +90,14 @@ a {
 }
 
 .pageTitle {
-  color: var(--primary);
+  color: var(--secondary);
   font-size: 45px;
   margin: 50px;
   text-align: center;
   position: relative !important;
+  background-color: var(--primary);
+  padding: 6px;
+  border-radius: 16px;
 }
 
 /* navbar styling css */
@@ -433,6 +436,7 @@ h2 {
   min-height: 80vh;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .welcomeback {
@@ -448,19 +452,60 @@ h2 {
   min-height: fit-content;
 }
 
+.lovequiz h3 {
+  color: var(--secondary);
+}
+
 .quizimg {
   position: absolute;
   z-index: -1;
   margin-top: -16px;
   background-position: center;
-  height: 1650px;
+  height: 1640px;
   width: 100%;
+}
+
+.css-lymgcl {
+  background-color: rgba(253, 41, 123, 0.7);
+  border-radius: 8px;
+  margin-top: 128px !important;
+  margin-bottom: 34px !important;
+  padding: 12px !important;
 }
 
 .contributorimg {
   position: absolute;
   margin-top: -48px;
   background-position: center;
-  height: 660px;
+  height: 674px;
   width: 100%;
+}
+
+.loginbg {
+  position: absolute;
+  z-index: -1;
+  margin-top: -16px;
+  background-position: center;
+  height: 560px;
+  width: 100%;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  background-color:#30333c00;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+Button {
+  margin: 10px !important;
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
 }

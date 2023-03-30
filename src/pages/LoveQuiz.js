@@ -88,7 +88,7 @@ function LoveQuiz() {
       <img src={Heartbg} className="quizimg" />
       <Container maxWidth="lg">
         <Box sx={{ bgcolor: 'rgba(253, 41, 123, 0.7)', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
-          <PageHeader title="Love Quiz" />
+          <PageHeader className="lovequiz" title="Love Quiz" />
           <p className="quizInstructions">Fill out the quick questionnaire below and we'll use your answers to match you with like-minded people!</p>
           <Container className="questionOne">
             <h3>What's your name?</h3>
@@ -106,7 +106,7 @@ function LoveQuiz() {
                   onAnswerChange={(answer) => handleAnswerChange(question.id, answer)}
                 />
               ))}
-              <button type="submit">Submit</button>
+              <button className="quizbtn" type="submit">Submit</button>
             </form>
           </Container>
         </Box>
