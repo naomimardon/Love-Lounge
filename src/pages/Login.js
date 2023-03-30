@@ -3,6 +3,8 @@ import GoogleLogin from './GoogleLogin';
 import { useNavigate } from 'react-router-dom';
 import loginbg from "../images/loginbg.jpg";
 
+//Submit button at bottom of love quiz links to Login page
+
 const Login = () => {
     const navigate = useNavigate();
 

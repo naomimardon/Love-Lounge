@@ -21,8 +21,10 @@ function Results() {
     const musicGenres = ["Pop", "Rock", "Hip hop", "Dance", "Classical"];
     const filmGenres = ["Comedy", "Action", "Thriller/ Horror", "Sci Fi/ Fantasy", "Drama"];
 
+    // empty array to push matching answers to
     let matchedAnswers = [];
 
+    // loops through answers array and pushes matching answers to matchedAnswers array
     for (let i = 4; i < 9; i++) {
         if (answers[i] === matchAnswers[i]) {
             matchedAnswers.push(answers[i]);
@@ -32,6 +34,7 @@ function Results() {
         }
     }
 
+    // randomly chooses a variable from the matchedAnswers array to decide what kind of activity to suggest
     let activityTopic = matchedAnswers[Math.floor(Math.random() * matchedAnswers.length)];
     console.log(activityTopic);
 

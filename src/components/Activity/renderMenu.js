@@ -11,6 +11,8 @@ const RenderMenu = (props) => {
     const [ingredients, setIngredients] = useState("");
     const [instructions, setInstructions] = useState("");
 
+// Displays a recipe to cook from The API Ninjas Recipe API if activity topic generated is takeaway. Type of cuisine matches the cuisine selected by both users.
+
     const fetchMenu = async () => {
         const menuKey = "JA4B88GAnoJZR9OPoUhBYiGacnUGyiGQ5qXQbytM";
         let cuisine = `${props.activityTopic}`;
@@ -52,7 +54,6 @@ const RenderMenu = (props) => {
                             <p className="recipeInstructions">{instructions}</p>
                         </Grid>
                     </Grid>
-
                 </Box>
             </Container>
         </div>

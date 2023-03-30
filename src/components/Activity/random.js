@@ -4,6 +4,8 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import PageHeader from "../PageHeader";
 
+// Displays a random activity suggestion from Bored API if activity topic generated is holiday type or superpower.
+
 const RandomActivity = () => {
     const [activity, setActivity] = useState("");
 
@@ -18,7 +20,7 @@ const RandomActivity = () => {
 
     useEffect(() => {
         fetchActivity();
-    }, [activity]);
+    }, []);
 
     return (
         <div>
