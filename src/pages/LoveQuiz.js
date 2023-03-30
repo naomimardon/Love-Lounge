@@ -9,9 +9,6 @@ import { useNavigate } from 'react-router-dom';
 import PageHeader from "../components/PageHeader";
 import Heartbg from "../images/heartbg.jpg";
 
-
-
-
 let bestMatch = null;
 let bestMatchAnswers = null;
 
