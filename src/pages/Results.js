@@ -11,12 +11,14 @@ import RandomActivity from "../components/Activity/random";
 
 
 function Results() {
+    {/* setting the localstorage calls to variables */ }
     const name = localStorage.getItem('name');
     const answers = JSON.parse(localStorage.getItem('answers'));
     const matchName = localStorage.getItem('bestMatch');
     const matchAnswers = JSON.parse(localStorage.getItem('bestMatchAnswers'));
 
     const navigate = useNavigate();
+    {/* arrays for the answers */ }
     const takeaways = ["Chinese", "Indian", "Pizza", "Burger", "Sushi"];
     const musicGenres = ["Pop", "Rock", "Hip hop", "Dance", "Classical"];
     const filmGenres = ["Comedy", "Action", "Thriller/ Horror", "Sci Fi/ Fantasy", "Drama"];
@@ -47,6 +49,7 @@ function Results() {
         }
     }
 
+    {/* this functions saves the matched answers and name to firebase collection PreviousMatches */ }
 
     const saveMatch = () => {
         const currentUser = auth.currentUser;

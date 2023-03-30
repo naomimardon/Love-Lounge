@@ -4,11 +4,12 @@ import PageHeader from '../components/PageHeader';
 import LogoutButton from '../components/Logout';
 
 function Dashboard() {
+    {/* defining useState hook */ }
     const [matches, setMatches] = useState([]);
     const [displayName, setDisplayName] = useState('');
 
 
-
+    {/* useEffect hook used to retrieve the data from firebase database */ }
     useEffect(() => {
         const currentUser = auth.currentUser;
         if (currentUser) {

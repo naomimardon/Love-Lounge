@@ -11,19 +11,23 @@ import Heartbg from "../images/heartbg.jpg";
 
 
 
-
+{/* global variables */ }
 let bestMatch = null;
 let bestMatchAnswers = null;
 
 function LoveQuiz() {
+  {/* defining the Hooks useState and useNavigate */ }
   const navigate = useNavigate();
   const [name, setName] = useState("");
   const [answers, setAnswers] = useState({});
+
+  {/* this functions updates the state of name, with the value of NameField */ }
 
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
 
+  {/* this functions updates the state of answers, with the key of questionID and value of option */ }
   const handleAnswerChange = (questionId, option) => {
     setAnswers(prevAnswers => ({
       ...prevAnswers,
@@ -31,6 +35,7 @@ function LoveQuiz() {
     }));
   };
 
+  {/* function for the submit button, saves data to localstorage */ }
   const handleSubmit = (e) => {
     e.preventDefault();
     localStorage.setItem('name', name);
@@ -38,10 +43,10 @@ function LoveQuiz() {
     localStorage.setItem('bestMatch', bestMatch);
     localStorage.setItem('bestMatchAnswers', JSON.stringify(bestMatchAnswers));
     navigate('/Login');
-    console.log(`Name: ${name}`);
-    console.log(`Answers: ${answers}`);
+
   };
 
+  {/* filters the gender and sexuality preferences for the matches */ }
   let filteredMatches = matches;
 
   if (answers["3"] === "Man") {
@@ -59,7 +64,7 @@ function LoveQuiz() {
   }
 
 
-
+  {/* Calculates a score for the most matched questions for each person*/ }
   let maxScore = -1;
 
   for (const match of filteredMatches) {
