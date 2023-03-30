@@ -10,16 +10,14 @@ import contributorImage from "../images/contributor.jpg";
 const Contributors = () => {
     return (
         <div>
-            <img src={contributorImage} className="contributorimg" />
+            <img src={contributorImage} className="contributorimg" alt="contributors" />
             <section className="contributors">
                 <PageHeader className="contributorTitle" title="The Brains Behind The Project" />
                 <div className="container">
-                    <p className="content">
-                        {/* ... */}
-                    </p>
-
+                    {/*The contributor elements*/}
                     <div className="row">
                         <div className="col-lg-4">
+                            {/*this div uses framerMotion to allow for animation of the content */}
                             <motion.div
                                 className="contributor-item"
                                 initial={{ x: -1000 }}

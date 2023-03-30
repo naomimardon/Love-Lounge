@@ -12,6 +12,7 @@ const GoogleLogin = ({ onSubmit }) => {
     }
   }, [currentUser, onSubmit]);
 
+  {/* this functions calls signUpWithGoogle then waits for authentication */ }
   const handleLogin = async () => {
     try {
       await signupWithGoogle(provider);

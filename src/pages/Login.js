@@ -8,6 +8,7 @@ import loginbg from "../images/loginbg.jpg";
 const Login = () => {
     const navigate = useNavigate();
 
+    {/* useEffect hook checks if isLoggedIn is true and then navigates user to results.js */ }
     useEffect(() => {
         const isLoggedIn = localStorage.getItem('isLoggedIn');
         if (isLoggedIn === 'true') {
@@ -15,6 +16,7 @@ const Login = () => {
         }
     }, [navigate]);
 
+    {/* When user logs in, isLoggedIn is set to true in localstorage and user is navigated to results.js*/ }
     const onSubmit = (user) => {
         console.log(user);
         localStorage.setItem('isLoggedIn', 'true');

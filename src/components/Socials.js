@@ -11,6 +11,7 @@ const Socials = ({ githubUrl, linkedinUrl }) => {
 
     return (
         <div className="socialIcons" style={styles.socialIcons}>
+            {/*Github and LinkedIn Icons and Styling */}
             <a className="icon" style={styles.icon} href={githubUrl}>
                 <i className="fa-brands fa-github" aria-hidden="true" title="GitHub Profile"></i>
             </a>
