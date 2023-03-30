@@ -503,7 +503,26 @@ h2 {
   background-position: center;
   height: 700px;
   width: 100%;
+  background-repeat: repeat-y;
+  background-size: cover;
 }
+
+@media only screen and (max-width: 991px) {
+  .contributorimg {
+    height: 320vh;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contributorimg {
+    height: 268vh;
+    background-size: cover;
+
+  }
+}
+
+
 
 .loginbg {
   position: absolute;
