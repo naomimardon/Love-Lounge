@@ -38,10 +38,10 @@ const RenderMenu = (props) => {
     return (
         <div>
             <Container maxWidth="lg">
-                <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+                <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
                     <PageHeader title="SUGGESTED ACTIVITY" />
-                    <h4 className="quizInstructions">Cook a meal for your date: </h4>
-                    <p className="quizInstructions">Cook a meal for your date: {menu}</p>
+                    <h4 className="quizInstructions">Cook a meal for your date: {menu}</h4>
+                    <p className="quizInstructions">{servings}</p>
                     <Grid container spacing={2}>
                         <Grid item xs={6}>
                             <h5 className="ingredientsHeader">Ingredients</h5>
