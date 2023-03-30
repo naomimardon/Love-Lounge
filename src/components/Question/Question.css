@@ -1,18 +1,18 @@
 .quizQuestion {
     margin: 10px !important;
-    color: white !important;
+    color: #ffffff !important;
 }
 
 Button {
     margin: 10px !important;
-    background-color: white !important;
+    background-color: #ffffff !important;
     color: #FD297B !important;
     border-radius: 5px;
     border: 1px solid lightgrey;
 }
 
 .MuiButton-contained {
-    color: white !important;
+    color: #ffffff !important;
 }
 
 .MuiButton-containedPrimary {
