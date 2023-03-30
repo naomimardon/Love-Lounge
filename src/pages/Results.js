@@ -105,7 +105,7 @@ function Results() {
                             margin: "10px",
                         }}
                     >
-                        <h3>You: {name}</h3>
+                        <h3 className="cardVariantTitle">You: {name}</h3>
                         <p>Your answers:</p>
                         <ul>
                             {Questions.map((question) => (
@@ -129,7 +129,7 @@ function Results() {
                             margin: "10px",
                         }}
                     >
-                        <h3>Your Match: {matchName}</h3>
+                        <h3 className="cardVariantTitle">Your Match: {matchName}</h3>
                         <p>Their answers:</p>
                         <ul>
                             {Questions.map((question) => (
