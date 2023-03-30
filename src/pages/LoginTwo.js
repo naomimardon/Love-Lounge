@@ -3,6 +3,8 @@ import GoogleLogin from './GoogleLogin';
 import { useNavigate } from 'react-router-dom';
 import loginbg from "../images/loginbg.jpg";
 
+//Login link in navbar links to LoginTwo page
+
 const LoginTwo = () => {
     const navigate = useNavigate();
 

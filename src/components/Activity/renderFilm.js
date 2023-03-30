@@ -5,6 +5,8 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import PageHeader from "../PageHeader";
 
+// Displays a film to watch from The Movie Database API if activity topic generated is film. Genre of film matches the genre selected by both users.
+
 const RenderFilm = (props) => {
   const [film, setFilm] = useState("");
   const [filmGenreID, setFilmGenreID] = useState("");
@@ -48,8 +50,8 @@ const RenderFilm = (props) => {
   return (
     <div>
       <Container maxWidth="lg">
-        <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
-          <PageHeader title="SUGGESTED ACTIVITY" />
+        <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+          <PageHeader title="Suggested Activity" />
           <Grid container spacing={2}>
             <Grid item xs={4}>
               <img className="filmPoster" src={`https://image.tmdb.org/t/p/w200${poster}`} alt="Film Poster" />
@@ -60,7 +62,6 @@ const RenderFilm = (props) => {
               <p className="quizInstructions overview">{overview}</p>
             </Grid>
           </Grid>
-
         </Box>
       </Container>
     </div>

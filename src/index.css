@@ -65,8 +65,6 @@ p {
   margin-bottom: 20px;
 }
 
-
-
 .mb-5 {
   text-shadow: 4px 4px 4px #30333c;
   font-size: 40px !important;
@@ -92,6 +90,26 @@ a {
   border-radius: 16px;
   box-shadow: 3px 3px 3px white;
   border: 1px solid white;
+}
+
+.container {
+  min-height: 75vh;
+}
+
+.css-lymgcl {
+  background-color: rgba(253, 41, 123, 0.7);
+  border-radius: 8px;
+  margin-top: 128px !important;
+  margin-bottom: 34px !important;
+  padding: 12px !important;
+}
+
+Button {
+  margin: 10px !important;
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
 }
 
 /* navbar styling css */
@@ -189,6 +207,10 @@ header.masthead .header-content h1 {
   font-size: 30px;
 }
 
+/* hero styling end */
+
+/* app download styling css */
+
 #download {
   background-color: var(--primary) !important;
 }
@@ -223,6 +245,14 @@ section.download .badges .badge-link:last-child {
 section.download .badges .badge-link img {
   height: 60px;
 }
+
+#appContainer {
+  min-height: fit-content;
+}
+
+/* app download styling end */
+
+/* how it works styling css */
 
 section.howItWork {
   padding-top: 7rem;
@@ -268,6 +298,10 @@ section.howItWork {
   color: var(--secondary) !important;
   font-family: var(--fontMain) !important;
 }
+
+/* how it works styling end */
+
+/* contributors styling css */
 
 .contributors {
   background-color: #ffffff;
@@ -322,7 +356,35 @@ section.howItWork {
   transform: scale(1.2);
 }
 
-/* css for quiz page */
+.contributorimg {
+  position: absolute;
+  margin-top: -48px;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+  .contributorimg {
+    height: 320vh;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contributorimg {
+    height: 268vh;
+    background-size: cover;
+
+  }
+}
+
+/* contributors styling end */
+
+/* quiz page styling css */
+
 h2 {
   color: var(--secondary) !important;
   text-align: center;
@@ -365,7 +427,22 @@ h2 {
   color: #FD297B !important;
 }
 
-/* end css for quiz page */
+.lovequiz h3 {
+  color: var(--secondary);
+}
+
+.quizimg {
+  position: absolute;
+  z-index: -1;
+  margin-top: -16px;
+  background-position: center;
+  height: 1640px;
+  width: 100%;
+}
+
+/* quiz page styling end */
+
+/* login styling css */
 
 .header {
   text-align: center;
@@ -392,6 +469,32 @@ h2 {
   width: 100%;
   margin: auto;
 }
+
+.loginbg {
+  position: absolute;
+  z-index: -1;
+  margin-top: -16px;
+  background-position: center;
+  height: 600px;
+  height: 85vh;
+  width: 100%;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  background-color: #30333c00;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+/* login styling end */
+
+/* results styling css */
 
 .card-container {
   display: flex;
@@ -431,125 +534,6 @@ h2 {
 
 .cardVariantTitle {
   text-shadow: none;
-}
-
-.dashboard-h1 {
-  text-align: center;
-}
-
-.dashboard h2 {
-  color: black !important;
-  text-shadow: none !important;
-  color: #30333c !important;
-}
-
-.LoginTwo-Page {
-  display: flex;
-  min-height: 80vh;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 120px;
-}
-
-.dashboard {
-  margin-top: 110px !important;
-  background-color: var(--primaryFade);
-  display: flex;
-  min-height: 80vh;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
-
-
-.welcomeback {
-  color: black !important;
-  text-shadow: none;
-}
-
-.container {
-  min-height: 75vh;
-}
-
-#appContainer {
-  min-height: fit-content;
-}
-
-.lovequiz h3 {
-  color: var(--secondary);
-}
-
-.quizimg {
-  position: absolute;
-  z-index: -1;
-  margin-top: -16px;
-  background-position: center;
-  height: 1640px;
-  width: 100%;
-}
-
-.css-lymgcl {
-  background-color: rgba(253, 41, 123, 0.7);
-  border-radius: 8px;
-  margin-top: 128px !important;
-  margin-bottom: 34px !important;
-  padding: 12px !important;
-}
-
-.contributorimg {
-  position: absolute;
-  margin-top: -48px;
-  background-position: center;
-  height: 700px;
-  width: 100%;
-  background-repeat: repeat-y;
-  background-size: cover;
-}
-
-@media only screen and (max-width: 991px) {
-  .contributorimg {
-    height: 320vh;
-    background-size: cover;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .contributorimg {
-    height: 268vh;
-    background-size: cover;
-
-  }
-}
-
-.loginbg {
-  position: absolute;
-  z-index: -1;
-  margin-top: -16px;
-  background-position: center;
-  height: 600px;
-  height: 85vh;
-  width: 100%;
-}
-
-.login-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 24px;
-  background-color: #30333c00;
-  max-width: 400px;
-  width: 100%;
-  margin: auto;
-}
-
-Button {
-  margin: 10px !important;
-  background-color: var(--primary) !important;
-  color: var(--secondary) !important;
-  border-radius: 5px;
-  border: 1px solid lightgrey;
 }
 
 .resultsText {
@@ -599,10 +583,49 @@ p {
   margin-bottom: 50px;
 }
 
-/* activities css */
+/* results styling end */
+
+/* dashboard styling css */
+
+.dashboard-h1 {
+  text-align: center;
+}
+
+.dashboard h2 {
+  color: black !important;
+  text-shadow: none !important;
+  color: #30333c !important;
+}
+
+.LoginTwo-Page {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.dashboard {
+  margin-top: 110px !important;
+  background-color: var(--primaryFade);
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.welcomeback {
+  color: black !important;
+  text-shadow: none;
+}
+
+/* dashboard styling end */
+
+/* activities styling css */
+
 .filmPoster {
-  margin-left: 50px;
-  padding-bottom: 50px
+  padding: 50px;
 }
 
 .filmContainer {
@@ -625,3 +648,9 @@ p {
   color: var(--secondary);
   border-left: 2px solid var(--onHover);
 }
+
+.overview {
+  text-align: left;
+}
+
+/* activities styling end */
