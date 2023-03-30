@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import GoogleLogin from './GoogleLogin';
 import { useNavigate } from 'react-router-dom';
+import loginbg from "../images/loginbg.jpg";
 
 const LoginTwo = () => {
     const navigate = useNavigate();
@@ -20,7 +21,8 @@ const LoginTwo = () => {
 
     return (
         <div className="LoginTwo-Page">
-            <GoogleLogin onSubmit={onSubmit} />
+            <img src={loginbg} className="loginbg" />
+            <GoogleLogin className="logingoogle" onSubmit={onSubmit} />
         </div>
     );
 };
