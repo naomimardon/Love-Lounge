@@ -461,8 +461,6 @@ h2 {
 
 }
 
-
-
 .welcomeback {
   color: black !important;
   text-shadow: none;
@@ -601,8 +599,7 @@ p {
 
 /* activities css */
 .filmPoster {
-  margin-left: 50px;
-  padding-bottom: 50px
+  padding: 50px;
 }
 
 .filmContainer {
@@ -624,4 +621,8 @@ p {
   padding: 10px 50px;
   color: var(--secondary);
   border-left: 2px solid var(--onHover);
+}
+
+.overview {
+  text-align: left;
 }

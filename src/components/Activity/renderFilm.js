@@ -48,8 +48,8 @@ const RenderFilm = (props) => {
   return (
     <div>
       <Container maxWidth="lg">
-        <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
-          <PageHeader title="SUGGESTED ACTIVITY" />
+        <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+          <PageHeader title="Suggested Activity" />
           <Grid container spacing={2}>
             <Grid item xs={4}>
               <img className="filmPoster" src={`https://image.tmdb.org/t/p/w200${poster}`} alt="Film Poster" />

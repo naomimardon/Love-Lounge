@@ -30,12 +30,12 @@ const RenderMusic = (props) => {
     return (
         <div>
             <Container maxWidth="lg">
-                <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+                <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
                     <PageHeader title="SUGGESTED ACTIVITY" />
                     <h4 className="quizInstructions">Discover a new artist together:</h4>
                     <p className="quizInstructions">{music}</p>
                     <div className="buttonDiv">
-                        <Button variant="contained" href={artistURL}>Check them out!</Button>
+                        <Button variant="contained" href={artistURL} target="_blank">Check them out!</Button>
                     </div>
                 </Box>
             </Container>
