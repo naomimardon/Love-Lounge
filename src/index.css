@@ -509,3 +509,28 @@ Button {
   border-radius: 5px;
   border: 1px solid lightgrey;
 }
+
+/* activities css */
+.filmPoster {
+  margin-left: 50px;
+  padding-bottom: 50px
+}
+
+.filmContainer {
+  padding: 100px;
+}
+
+.buttonDiv {
+  text-align: center;
+}
+
+.ingredientsHeader, .ingredients {
+  padding: 10px 50px;
+  color: var(--secondary);
+}
+
+.instructionsHeader, .recipeInstructions {
+  padding: 10px 50px;
+  color: var(--secondary);
+  border-left: 2px solid var(--onHover);
+}

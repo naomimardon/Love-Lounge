@@ -32,7 +32,7 @@ function Results() {
         }
     }
 
-    let activityTopic = matchedAnswers[0];
+    let activityTopic = matchedAnswers[Math.floor(Math.random() * matchedAnswers.length)];
     console.log(activityTopic);
 
     const cardVariants = {
