@@ -90,10 +90,11 @@ a {
 }
 
 .pageTitle {
-  color: white;
+  color: var(--primary);
   font-size: 45px;
   margin: 50px;
   text-align: center;
+  position: relative !important;
 }
 
 /* navbar styling css */
@@ -266,12 +267,23 @@ section.howItWork {
 
 .contributors {
   background-color: #ffffff;
+  margin-top:160px;
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  text-align: center;
+}
+
+.contributorTitle{
+  color:var(--primary) !important;
 }
 
 .contributor-item {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
 }
 
 .contributor-item img {
@@ -279,7 +291,7 @@ section.howItWork {
   border-radius: 80%;
   width: 80%;
   height: 80%;
-  border: 1px solid rgb(124, 123, 123);
+  border: 6px solid var(--primary);
   box-shadow: 5px 5px 5px rgb(124, 123, 123);
 }
 
@@ -289,6 +301,7 @@ section.howItWork {
   font-family: var(--fontMain);
   letter-spacing: 1px;
   text-shadow: none !important;
+  color: var(--primary);
 
 }
 
@@ -442,5 +455,12 @@ h2 {
   background-position: center;
   height: 1650px;
   width: 100%;
+}
 
+.contributorimg {
+  position: absolute;
+  margin-top: -48px;
+  background-position: center;
+  height: 660px;
+  width: 100%;
 }

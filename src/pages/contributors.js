@@ -5,12 +5,14 @@ import Socials from "../components/Socials";
 import hoger from "../images/hoger.png";
 import imran from "../images/imran.png";
 import naomi from "../images/naomi.png";
+import contributorImage from "../images/contributor.jpg";
 
 const Contributors = () => {
     return (
         <div>
+            <img src={contributorImage} className="contributorimg" />
             <section className="contributors">
-                <PageHeader title="The Brains Behind The Project" />
+                <PageHeader className="contributorTitle" title="The Brains Behind The Project" />
                 <div className="container">
                     <p className="content">
                         {/* ... */}
@@ -42,8 +44,8 @@ const Contributors = () => {
                                 <img src={imran} alt="" />
                                 <h5>Imran Aftab</h5>
                                 <Socials
-                                    githubUrl="https://github.com/naomimardon"
-                                    linkedinUrl="https://www.linkedin.com/in/naomi-mardon-79099455/"
+                                    githubUrl="https://github.com/Imran-92"
+                                    linkedinUrl="https://www.linkedin.com/in/imran-aftab-ab3559107/"
                                 />
                             </motion.div>
                         </div>
