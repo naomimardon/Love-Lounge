@@ -2,10 +2,14 @@ import axios from 'axios';
 import { useState, useEffect } from "react";
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
 import PageHeader from "../PageHeader";
 
 const RenderMenu = (props) => {
     const [menu, setMenu] = useState("");
+    const [servings, setServings] = useState("");
+    const [ingredients, setIngredients] = useState("");
+    const [instructions, setInstructions] = useState("");
 
     const fetchMenu = async () => {
         const menuKey = "JA4B88GAnoJZR9OPoUhBYiGacnUGyiGQ5qXQbytM";
@@ -17,9 +21,11 @@ const RenderMenu = (props) => {
                 headers: { 'X-Api-Key': menuKey },
                 contentType: "application/json"
             });
-            setMenu(res.data[3].title)
-            // setMenu(res.data[Math.floor(Math.random() * res.data.length)].title)
-            console.log(res.data);
+            const index = Math.floor(Math.random() * res.data.length)
+            setMenu(res.data[index].title)
+            setServings(res.data[index].servings)
+            setIngredients(res.data[index].ingredients)
+            setInstructions(res.data[index].instructions)
         } catch (err) {
             console.log(err);
         }
@@ -27,14 +33,25 @@ const RenderMenu = (props) => {
 
     useEffect(() => {
         fetchMenu();
-    }, [menu]);
+    }, []);
 
     return (
         <div>
             <Container maxWidth="lg">
-                <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
-                    <PageHeader title="Suggested Activity" />
+                <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+                    <PageHeader title="SUGGESTED ACTIVITY" />
+                    <h4 className="quizInstructions">Cook a meal for your date: </h4>
                     <p className="quizInstructions">Cook a meal for your date: {menu}</p>
+                    <Grid container spacing={2}>
+                        <Grid item xs={6}>
+                            <h5 className="ingredientsHeader">Ingredients</h5>
+                            <p className="ingredients">{ingredients}</p>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <h5 className="instructionsHeader">Recipe</h5>
+                            <p className="recipeInstructions">{instructions}</p>
+                        </Grid>
+                    </Grid>
 
                 </Box>
             </Container>

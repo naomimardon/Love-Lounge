@@ -32,7 +32,7 @@ function Results() {
         }
     }
 
-    let activityTopic = matchedAnswers[0];
+    let activityTopic = matchedAnswers[Math.floor(Math.random() * matchedAnswers.length)];
     console.log(activityTopic);
 
     const cardVariants = {
@@ -99,7 +99,7 @@ function Results() {
                         animate="visible"
                         className="cardVariants"
                     >
-                        <h3>You: {name}</h3>
+                        <h3 className="cardVariantTitle">You: {name}</h3>
                         <p>Your answers:</p>
                         <ul>
                             {Questions.map((question) => (
@@ -118,7 +118,7 @@ function Results() {
                         animate="visible"
                         className="cardVariantsTwo"
                     >
-                        <h3>Your Match: {matchName}</h3>
+                        <h3 className="cardVariantTitle">Your Match: {matchName}</h3>
                         <p>Their answers:</p>
                         <ul>
                             {Questions.map((question) => (

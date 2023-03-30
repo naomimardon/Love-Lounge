@@ -6,6 +6,7 @@
   --secondary: #ffffff;
   --onHover: #ff5194;
   --fontMain: 'Lily Script One', sans-serif;
+  --fontSecondary: 'Josefin Sans', sans-serif;
 }
 
 * {
@@ -49,10 +50,7 @@ hr.light {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: var(--fontMain);
   font-weight: 200;
   letter-spacing: 1px;
@@ -61,19 +59,13 @@ h6 {
 }
 
 p {
-  font-family: var(--fontMain);
+  font-family: var(--fontSecondary);
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 2px #30333c;
-
 }
 
-li {
-  font-family: var(--fontMain);
-  font-weight: lighter;
-  text-shadow: 2px 2px 2px #30333c;
-}
+
 
 .mb-5 {
   text-shadow: 4px 4px 4px #30333c;
@@ -139,6 +131,7 @@ a {
 .nav-item {
   margin: 30px;
   font-size: 24px;
+  font-family: var(--fontMain);
 }
 
 .nav-item a {
@@ -174,10 +167,6 @@ header.masthead .header-content {
   font-family: var(--fontMain);
 }
 
-header.masthead .header-content h1 {
-  font-size: 30px;
-}
-
 header.masthead .device-container {
   max-width: 325px;
   margin-right: auto;
@@ -197,6 +186,7 @@ header.masthead .device-container .screen img {
 header.masthead .header-content h1 {
   font-size: 42px;
   color: var(--secondary);
+  font-size: 30px;
 }
 
 #download {
@@ -258,6 +248,7 @@ section.howItWork {
 
 .howItworks li {
   padding: 5px;
+  font-weight: 300;
 }
 
 .css-zf0iqh {
@@ -320,7 +311,6 @@ section.howItWork {
 
 .socialIcons {
   display: flex;
-
 }
 
 .socialIcons .icon {
@@ -389,9 +379,7 @@ h2 {
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   font-family: var(--fontMain);
-
 }
-
 
 .login-form {
   display: flex;
@@ -438,6 +426,19 @@ h2 {
 
 .card-list li {
   margin-bottom: 4px;
+  text-shadow: none;
+}
+
+.cardVariantTitle {
+  text-shadow: none;
+}
+
+.dashboard-h1 {
+  text-align: center;
+}
+
+.dashboard h2 {
+  color: black !important;
   text-shadow: none !important;
   color: #30333c !important;
 }
@@ -510,6 +511,7 @@ h2 {
   margin-top: -16px;
   background-position: center;
   height: 600px;
+  height: 85vh;
   width: 100%;
 }
 
@@ -548,8 +550,7 @@ Button {
 .resultsText h3,
 li,
 p {
-  text-shadow: 1px 1px 1px #FD297B !important;
-  color: white !important;
+  font-family: var(--fontSecondary);
 }
 
 .resultsText {
@@ -579,4 +580,31 @@ p {
 
 .space {
   margin-bottom: 50px;
+}
+
+/* activities css */
+.filmPoster {
+  margin-left: 50px;
+  padding-bottom: 50px
+}
+
+.filmContainer {
+  padding: 100px;
+}
+
+.buttonDiv {
+  text-align: center;
+}
+
+.ingredientsHeader,
+.ingredients {
+  padding: 10px 50px;
+  color: var(--secondary);
+}
+
+.instructionsHeader,
+.recipeInstructions {
+  padding: 10px 50px;
+  color: var(--secondary);
+  border-left: 2px solid var(--onHover);
 }
