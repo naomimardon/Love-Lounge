@@ -98,6 +98,8 @@ a {
   background-color: var(--primary);
   padding: 6px;
   border-radius: 16px;
+  box-shadow: 3px 3px 3px white;
+  border: 1px solid white;
 }
 
 /* navbar styling css */
@@ -114,7 +116,10 @@ a {
   margin-right: 54px;
 }
 
-.navbar, .fixed-top, .navbar-expand-lg, .navbar-light {
+.navbar,
+.fixed-top,
+.navbar-expand-lg,
+.navbar-light {
   background-color: var(--primary);
 }
 
@@ -131,13 +136,14 @@ a {
   letter-spacing: 4px;
 }
 
-.nav-item{
+.nav-item {
   margin: 30px;
   font-size: 24px;
 }
 
 .nav-item a {
   color: var(--secondary) !important;
+  text-shadow: 2px 2px 2px #30333c;
 }
 
 /* navbar styling end */
@@ -198,14 +204,18 @@ header.masthead .header-content h1 {
 }
 
 section.download {
+  margin-bottom: 50px;
   position: relative;
   padding: 150px 0;
+  box-shadow: 3px 3px 3px 3px #30333c;
+  border-top: #30333c;
 }
 
 section.download h2 {
   color: var(--secondary);
   font-size: 50px;
   margin-top: 0;
+
 }
 
 section.download p {
@@ -270,7 +280,7 @@ section.howItWork {
 
 .contributors {
   background-color: #ffffff;
-  margin-top:160px;
+  margin-top: 160px;
 }
 
 .col-lg-4 {
@@ -279,8 +289,8 @@ section.howItWork {
   text-align: center;
 }
 
-.contributorTitle{
-  color:var(--primary) !important;
+.contributorTitle {
+  color: var(--primary) !important;
 }
 
 .contributor-item {
@@ -318,7 +328,7 @@ section.howItWork {
 }
 
 .socialIcons .icon:hover {
-  color: var(--primaryFade);
+  color: #ff5194;
   transform: scale(1.2);
 }
 
@@ -330,8 +340,17 @@ h2 {
 }
 
 .quizInstructions {
-  color: var(--secondary) !important;
+  color: #30333c !important;
   text-align: center;
+  text-shadow: 1px 1px 1px white !important;
+  font-size: 30px !important;
+}
+
+.quizInstructionsText {
+  color: white !important;
+  text-align: center;
+  text-shadow: 1px 1px 1px #30333c !important;
+  font-size: 20px !important;
 }
 
 .questionOne {
@@ -396,7 +415,7 @@ h2 {
 .card {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
   padding: 20px;
   width: calc(33.33% - 20px);
@@ -407,7 +426,7 @@ h2 {
   font-size: 24px;
   margin-bottom: 16px;
   color: black !important;
-  text-shadow: none;
+  text-shadow: none !important;
 
 }
 
@@ -419,16 +438,8 @@ h2 {
 
 .card-list li {
   margin-bottom: 4px;
-  text-shadow: none;
-
-}
-
-.dashboard-h1 {
-  text-align: center;
-}
-
-.dashboard h2 {
-  color: black !important;
+  text-shadow: none !important;
+  color: #30333c !important;
 }
 
 .LoginTwo-Page {
@@ -436,8 +447,20 @@ h2 {
   min-height: 80vh;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 120px;
 }
+
+.dashboard {
+  margin-top: 110px !important;
+  background-color: var(--primaryFade);
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
 
 .welcomeback {
   color: black !important;
@@ -477,7 +500,7 @@ h2 {
   position: absolute;
   margin-top: -48px;
   background-position: center;
-  height: 674px;
+  height: 700px;
   width: 100%;
 }
 
@@ -486,7 +509,7 @@ h2 {
   z-index: -1;
   margin-top: -16px;
   background-position: center;
-  height: 560px;
+  height: 600px;
   width: 100%;
 }
 
@@ -496,7 +519,7 @@ h2 {
   justify-content: center;
   text-align: center;
   padding: 24px;
-  background-color:#30333c00;
+  background-color: #30333c00;
   max-width: 400px;
   width: 100%;
   margin: auto;
@@ -508,4 +531,52 @@ Button {
   color: var(--secondary) !important;
   border-radius: 5px;
   border: 1px solid lightgrey;
+}
+
+.resultsText {
+  background-color: var(--primaryFade);
+  margin-top: 110px !important;
+  margin-bottom: -20px !important;
+}
+
+.resultsText h2 {
+  color: #30333c !important;
+  text-shadow: 2px 2px 2px white;
+  font-size: 50px;
+}
+
+.resultsText h3,
+li,
+p {
+  text-shadow: 1px 1px 1px #FD297B !important;
+  color: white !important;
+}
+
+.resultsText {
+  margin-top: 150px;
+}
+
+.resultsBtn {
+  margin-left: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid;
+  scale: 1.5;
+  margin-top: 30px !important;
+  font-family: var(--fontMain) !important;
+
+}
+
+.cardVariants,
+.cardVariantsTwo {
+  border-radius: 30px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #FD297B;
+  color: white !important;
+  box-shadow: 5px 5px 5px white;
+}
+
+.space {
+  margin-bottom: 50px;
 }

@@ -81,11 +81,10 @@ function Results() {
 
 
     return (
-        <div>
+        <div className="resultsText">
             <Container maxWidth="lg">
                 <div style={{ display: "flex", alignItems: "center" }}>
-                    <button
-                        style={{ marginLeft: "10px", borderRadius: "8px", cursor: "pointer" }}
+                    <button className="resultsBtn"
                         onClick={() => navigate("/Dashboard")}
                     >
                         Dashboard
@@ -98,12 +97,7 @@ function Results() {
                         variants={cardVariants}
                         initial="hidden"
                         animate="visible"
-                        style={{
-                            border: "1px solid #ccc",
-                            borderRadius: "30px",
-                            padding: "20px",
-                            margin: "10px",
-                        }}
+                        className="cardVariants"
                     >
                         <h3>You: {name}</h3>
                         <p>Your answers:</p>
@@ -122,12 +116,7 @@ function Results() {
                         variants={cardVariantsTwo}
                         initial="hidden"
                         animate="visible"
-                        style={{
-                            border: "1px solid #ccc",
-                            borderRadius: "30px",
-                            padding: "20px",
-                            margin: "10px",
-                        }}
+                        className="cardVariantsTwo"
                     >
                         <h3>Your Match: {matchName}</h3>
                         <p>Their answers:</p>

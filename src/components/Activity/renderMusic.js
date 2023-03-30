@@ -20,21 +20,21 @@ const RenderMusic = (props) => {
         }
     };
 
-useEffect(() => {
-    fetchMusic();
-}, [music]);
+    useEffect(() => {
+        fetchMusic();
+    }, [music]);
 
-return (
-    <div>
-        <Container maxWidth="lg">
-            <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
-                <PageHeader title="SUGGESTED ACTIVITY" />
-                <p className="quizInstructions">Discover a new artist together: {music}</p>
+    return (
+        <div>
+            <Container maxWidth="lg">
+                <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+                    <PageHeader title="Suggested Activity" />
+                    <p className="quizInstructions">Discover a new artist together: {music}</p>
 
-            </Box>
-        </Container>
-    </div>
-)
+                </Box>
+            </Container>
+        </div>
+    )
 };
 
 export default RenderMusic

@@ -28,14 +28,14 @@ const RenderMenu = (props) => {
     useEffect(() => {
         fetchMenu();
     }, [menu]);
-    
+
     return (
         <div>
             <Container maxWidth="lg">
-                <Box sx={{ bgcolor: '#FD297B', borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
-                    <PageHeader title="SUGGESTED ACTIVITY" />
+                <Box sx={{ borderRadius: 2, marginTop: 2, marginBottom: 2, padding: 2 }}>
+                    <PageHeader title="Suggested Activity" />
                     <p className="quizInstructions">Cook a meal for your date: {menu}</p>
-    
+
                 </Box>
             </Container>
         </div>

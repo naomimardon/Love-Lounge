@@ -26,8 +26,8 @@ function Dashboard() {
     }, []);
 
     return (
-        <div className="container">
-            <PageHeader title="Previous Matches" />
+        <div className="dashboard">
+            <PageHeader className="dashTitle" title="Previous Matches" />
             <h2 className="welcomeback">Welcome back, {displayName}</h2>
             <LogoutButton />
             <div className="card-container">
