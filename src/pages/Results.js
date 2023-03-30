@@ -32,8 +32,7 @@ function Results() {
         }
     }
 
-    let activityTopic = "Pop"
-    // matchedAnswers[Math.floor(Math.random() * matchedAnswers.length)];
+    let activityTopic = matchedAnswers[Math.floor(Math.random() * matchedAnswers.length)];
     console.log(activityTopic);
 
     const cardVariants = {
